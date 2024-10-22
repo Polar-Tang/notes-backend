@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "8004de9999895fc5",
+    "type": "split",
+    "children": [
+      {
+        "id": "c159d570dd76aecc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9b5da4e92a7a1563",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Welcome"
+            }
+          },
+          {
+            "id": "39b7771f0bc43343",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Portswigger/Portswigger's methodlogy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Portswigger's methodlogy"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b2118819a8387609",
+    "type": "split",
+    "children": [
+      {
+        "id": "a7812e53e8851062",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a334b104ca643a12",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "de511bfbb89708fa",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "5f3a5821d20ac1f2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "7c8a2d32415d53b1",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1f0f6d516330324",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4f2955564d061ce6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Portswigger/Portswigger's methodlogy.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Portswigger's methodlogy"
+            }
+          },
+          {
+            "id": "0ac0096bf56df128",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Portswigger/Portswigger's methodlogy.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Portswigger's methodlogy"
+            }
+          },
+          {
+            "id": "38d5372a55d47adb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b21ef298312a1cbd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Portswigger/Portswigger's methodlogy.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Portswigger's methodlogy"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "39b7771f0bc43343",
+  "lastOpenFiles": [
+    "Portswigger/Access control vulnerabilities/IDOR.md",
+    "Pasted image 20241022201359.png",
+    "Portswigger/what's-on.md",
+    "Portswigger/Access control vulnerabilities/Untitled",
+    "Cuadro-Apis.md",
+    "Portswigger/Access control vulnerabilities/Request_parameter_password_disclosure.md",
+    "Portswigger/Cuadro-Apis",
+    "Cuadro-Api",
+    "Pasted image 20241022195026.png",
+    "Portswigger/Portswigger's methodlogy.md",
+    "Portswigger/Access control vulnerabilities/Request_parameter_redirect_leakage.md",
+    "Portswigger/Access control vulnerabilities/Request_parameter_data_leakage.md",
+    "Portswigger/Access control vulnerabilities/request_parameter_with_GUID.md",
+    "Portswigger/Access control vulnerabilities/Unprotected-admin-functionality-but-unpredictable-URL.md",
+    "Portswigger/Access control vulnerabilities/User_role_controlled_by_request_parameter.md",
+    "Portswigger/Access control vulnerabilities/User_role_can_be_modified_in_user_profile.md",
+    "Portswigger/Access control vulnerabilities/User_ID_controlled_by_url_param.md",
+    "Pasted image 20241022185437.png",
+    "Hacking APIs.md",
+    "Pasted image 20241022161521.png",
+    "Pasted image 20241022161150.png",
+    "Portswigger/Access control vulnerabilities/Unprotected-admin-functionality.md",
+    "Pasted image 20241022160143.png",
+    "Pasted image 20241022155849.png",
+    "Portswigger/Access control vulnerabilities",
+    "Welcome.md",
+    "Portswigger"
+  ]
+}

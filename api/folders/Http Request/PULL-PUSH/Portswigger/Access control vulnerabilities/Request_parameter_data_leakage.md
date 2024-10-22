@@ -1,0 +1,1 @@
+This lab contains an access control vulnerability where sensitive information is leaked in the body of a redirect response.
