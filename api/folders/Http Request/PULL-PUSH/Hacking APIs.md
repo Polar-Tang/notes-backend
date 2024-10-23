@@ -35,3 +35,20 @@ json" -H "x-access-token: [...]" -p 127.0.0.1:8080 --hc 400 -X PUT -d "{
 \"account_balance\": \"FUZZ\"
 }" -u http://192.168.195.132:8090/api/user/edit_info
 ```
+
+
+#### `fsPromises.mkdir(path[, options])`[#](https://nodejs.org/api/fs.html#fspromisesmkdirpath-options)
+
+Added in: v10.0.0
+
+- `path` [<string>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#String_type) | [<Buffer>](https://nodejs.org/api/buffer.html#class-buffer) | [<URL>](https://nodejs.org/api/url.html#the-whatwg-url-api)
+- `options` [<Object>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object) | [<integer>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Number_type)
+    - `recursive` [<boolean>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Boolean_type) **Default:** `false`
+    - `mode` [<string>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#String_type) | [<integer>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures#Number_type) Not supported on Windows. **Default:** `0o777`.
+- Returns: [<Promise>](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise) Upon success, fulfills with `undefined` if `recursive` is `false`, or the first directory path created if `recursive` is `true`.
+
+Asynchronously creates a directory.
+
+The optional `options` argument can be an integer specifying `mode` (permission and sticky bits), or an object with a `mode` property and a `recursive` property indicating whether parent directories should be created. Calling `fsPromises.mkdir()` when `path` is a directory that exists results in a rejection only when `recursive` is false.
+
+`const { mkdir } = require('node:fs/promises'); const { join } = require('node:path');  async function makeDirectory() {   const projectFolder = join(__dirname, 'test', 'project');   const dirCreation = await mkdir(projectFolder, { recursive: true });    console.log(dirCreation);   return dirCreation; }  makeDirectory().catch(console.error);`

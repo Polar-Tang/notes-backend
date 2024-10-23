@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portswigger/Portswigger's methodlogy.md",
+                "file": "Hacking APIs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Portswigger's methodlogy"
+              "title": "Hacking APIs"
             }
           }
         ],
@@ -179,16 +179,16 @@
   },
   "active": "39b7771f0bc43343",
   "lastOpenFiles": [
+    "Cuadro-Apis.md",
+    "Portswigger/Portswigger's methodlogy.md",
     "Portswigger/Access control vulnerabilities/IDOR.md",
     "Pasted image 20241022201359.png",
     "Portswigger/what's-on.md",
     "Portswigger/Access control vulnerabilities/Untitled",
-    "Cuadro-Apis.md",
     "Portswigger/Access control vulnerabilities/Request_parameter_password_disclosure.md",
     "Portswigger/Cuadro-Apis",
     "Cuadro-Api",
     "Pasted image 20241022195026.png",
-    "Portswigger/Portswigger's methodlogy.md",
     "Portswigger/Access control vulnerabilities/Request_parameter_redirect_leakage.md",
     "Portswigger/Access control vulnerabilities/Request_parameter_data_leakage.md",
     "Portswigger/Access control vulnerabilities/request_parameter_with_GUID.md",
