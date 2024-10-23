@@ -28,7 +28,7 @@ app.use(cors({
     if (!origin) {
       return callback(null, true)
     }
-
+    
     return callback(new Error('Not allowed by CORS'))
   }
 }))
@@ -36,10 +36,13 @@ app.use(cors({
 // ---------------------------- Define a route to get the list of folders and files
 
 const getDirectoryPath = () => {
+  
+  // ABSOLUTLE PATH
   const __filename = fileURLToPath(import.meta.url);
+  // NAME FROM THE FILE
   const __dirname = dirname(__filename);
 
-  return join(__dirname, 'api');
+  return join(__dirname, 'markdown');
 };
 
 async function getAllFilesInDirectory(directory) {
@@ -53,7 +56,6 @@ async function getAllFilesInDirectory(directory) {
     const filePath = join(directory, file.name);
     
     if (file.isDirectory()) {
-      // If it's a directory, we can optionally call the function recursively
       const subFiles = await getAllFilesInDirectory(filePath);  // Recursively scan subfolder
       results = results.concat(subFiles); // Add the subfolder's files to the results
     } else {
@@ -65,21 +67,16 @@ async function getAllFilesInDirectory(directory) {
   return results; // Return the list of files
 }
 
-console.log(await getAllFilesInDirectory("/api/folders"))
+// console.log(await getAllFilesInDirectory("C:\\Users\\ASUS\\Desktop\\notes-backend\\markdown"))
 
 app.get('/api/folders', async (req, res) => {
 
-  // ABSOLUTLE PATH
-  const directoryPath = fileURLToPath(import.meta.url);
   //const directoryPath = path.join(__dirname, 'markdown'); // Adjust the directory path
-
-  // NAME FROM THE FILE
-  const fileName = basename(directoryPath);
   //Read the directory
     try{
-      const files = await readdir(directoryPath);
-      for (const file of files)
-      console.log(files)
+      const directoryPath = getDirectoryPath()
+      const files = await getAllFilesInDirectory(directoryPath)
+  
     // Filter the directories (folders) and files
     res.json(files);
   } catch(err){
