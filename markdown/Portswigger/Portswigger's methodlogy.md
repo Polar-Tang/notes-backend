@@ -22,7 +22,7 @@ Explore the page throug the UI (User Interface) with burpsuite growing the http 
 	(this solve these labs [[User_ID_controlled_by_url_param]], [[User_role_controlled_by_request_parameter]], [[User_role_can_be_modified_in_user_profile]], [[Request_parameter_redirect_leakage]], [[Request_parameter_password_disclosure]], [[Request_parameter_data_leakage]])
 #### 3. For the API endpoints look for these tecniques
 ###### Broken access control
-test for [Broken access control](https://portswigger.net/web-security/access-control#what-is-access-control). i also have a [summary](Broken_authorization) from [the Hacking apis book of J. Corey](https://www.amazon.com/Hacking-APIs-Application-Programming-Interfaces/dp/1718502443) 
+test for [Broken access control](https://portswigger.net/web-security/access-control#what-is-access-control). i also have a [summary](Broken_authorization.md) from [the Hacking apis book of J. Corey](https://www.amazon.com/Hacking-APIs-Application-Programming-Interfaces/dp/1718502443) 
 - A-B side
 	If you have two or more account with different privileges, explore them and compare the request to the same resource
 	(this solve de labs [[Referer-based_access_control]], [[Multi-step_process_with_no_access_control]], [[Method-based_access_control]])

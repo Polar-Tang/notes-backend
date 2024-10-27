@@ -27,32 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/Http Request/PULL-PUSH/Portswigger/Portswigger's methodlogy.md",
+                "file": "markdown/Hacking Apis/Injection.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Portswigger's methodlogy"
+              "title": "Injection"
             }
           },
           {
-            "id": "3462990e6ad142bf",
+            "id": "e703c05ee8769f31",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
-            }
-          },
-          {
-            "id": "57cc2ed58d26ffec",
-            "type": "leaf",
-            "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "Welcome.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Welcome"
             }
           },
           {
@@ -112,7 +106,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -253,31 +247,47 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "57cc2ed58d26ffec",
+  "active": "e703c05ee8769f31",
   "lastOpenFiles": [
-    "markdown/Http Request/PULL-PUSH/Portswigger/Access control vulnerabilities/Unprotected-admin-functionality.md",
-    "markdown/Http Request/PULL-PUSH/Portswigger/Portswigger's methodlogy.md",
-    "markdown/Http Request/PULL-PUSH/Portswigger/Access control vulnerabilities/Request_parameter_data_leakage.md",
-    "markdown/Http Request/PULL-PUSH/Portswigger/Access control vulnerabilities/Method-based_access_control.md",
-    "[[Broken_authorization]].md",
-    "markdown/Http Request/PULL-PUSH/Hacking Apis/Broken_authorization.md",
-    "[[Broken.md",
-    "markdown/Http Request/PULL-PUSH/Portswigger/Access control vulnerabilities/Multi-step_process_with_no_access_control.md",
-    "markdown/Http Request/PULL-PUSH/Portswigger/Access control vulnerabilities/Referer-based_access_control.md",
-    "markdown/Http Request/PULL-PUSH/Portswigger/Access control vulnerabilities/Request_parameter_password_disclosure.md",
-    "Pasted image 20241024204111.png",
-    "Pasted image 20241024195058.png",
-    "markdown/Http Request/PULL-PUSH/Portswigger/Access control vulnerabilities/request_parameter_with_GUID.md",
-    "markdown/Http Request/PULL-PUSH/Portswigger/Access control vulnerabilities/Request_parameter_redirect_leakage.md",
-    "markdown/Http Request/PULL-PUSH/Portswigger/Access control vulnerabilities/IDOR.md",
-    "Pasted image 20241024193703.png",
-    "markdown/Http Request/PULL-PUSH/Portswigger/Access control vulnerabilities/Unprotected-admin-functionality-but-unpredictable-URL.md",
-    "markdown/Http Request/PULL-PUSH/Portswigger/Access control vulnerabilities/URL-based_access_control.md",
-    "Pasted image 20241024134850.png",
-    "markdown/Http Request/PULL-PUSH/Hacking Apis/Fuzzing.md",
-    "Pasted image 20241024102458.png",
-    "Pasted image 20241024102400.png",
+    "markdown/Portswigger/HTTP request smuggling/Client-Side Desync.md",
+    "markdown/Portswigger/HTTP request smuggling/Exploiting HTTP request smuggling to perform web cache poisoning.md",
+    "markdown/Portswigger/HTTP request smuggling/Exploiting HTTP request smuggling to reveal front-end request rewriting.md",
+    "markdown/Portswigger/HTTP request smuggling/H2.CL request smuggling.md",
+    "markdown/Portswigger/HTTP request smuggling/How to install HTTP-Garden.md",
+    "markdown/Portswigger/HTTP request smuggling/Untitled.canvas",
+    "markdown/Portswigger/HTTP request smuggling/Server-side pause-based request smuggling.md",
+    "markdown/Portswigger/HTTP request smuggling/SEQUEL is always worse 2021.md",
+    "markdown/Portswigger/HTTP request smuggling/self-spreading desynchronization worm.md",
+    "markdown/Portswigger/HTTP request smuggling/resumen defcon 2019 JK.md",
+    "markdown/Portswigger/HTTP request smuggling/Response queue poisoning via H2.TE request smuggling.md",
+    "markdown/Portswigger/HTTP request smuggling/HTTP2 request splitting via CRLF injection.md",
+    "markdown/Portswigger/HTTP request smuggling/HTTP2 request smuggling via CRLF injection.md",
+    "markdown/Portswigger/HTTP request smuggling/HTTP smuggling introduction.md",
+    "markdown/Portswigger/HTTP request smuggling/HTTP request smuggling, obfuscating the TE header.md",
+    "markdown/Portswigger/HTTP request smuggling/Exploiting HTTP request smuggling to bypass front-end security controls, CL.TE vulnerability.md",
+    "markdown/Portswigger/HTTP request smuggling/Exploiting HTTP request smuggling to bypass front-end security controls, TE.CL vulnerability.md",
+    "markdown/Portswigger/HTTP request smuggling/Exploiting HTTP request smuggling to capture other users_ requests.md",
+    "markdown/Portswigger/HTTP request smuggling/Exploiting HTTP request smuggling to deliver reflected XSS.md",
+    "markdown/Portswigger/HTTP request smuggling/Exploiting HTTP request smuggling to perform web cache deception.md",
+    "markdown/Http Request/Pasted image 20240709084256.png",
+    "markdown/Portswigger/HTTP request smuggling/Untitled.md",
+    "markdown/Portswigger/HTTP request smuggling/HTTP pipeling.md",
+    "markdown/Portswigger/HTTP request smuggling/defcon James Kettle 2024.md",
+    "markdown/Portswigger/HTTP request smuggling/Defcon 2019 albinowax.md",
+    "markdown/Portswigger/HTTP request smuggling/defcon 2023.md",
+    "markdown/Portswigger/HTTP request smuggling/Defcon 2019 albinowax ES.md",
+    "markdown/Portswigger/HTTP request smuggling/confirming TE.CL.md",
+    "markdown/Portswigger/HTTP request smuggling",
+    "markdown/Http Request/HTTP_Flow.webp",
+    "markdown/Http Request/https_clear.webp",
+    "markdown/Http Request/https_google_enc.webp",
+    "markdown/Http Request/Pasted image 20240707215950.png",
+    "markdown/Http Request/url_structure.webp",
+    "markdown/Http Request/Pasted image 20240709083959.png",
+    "markdown/Http Request/Pasted image 20240709083838.png",
+    "markdown/Http Request/Pasted image 20240709083633.png",
+    "markdown/Http Request/Pasted image 20240709082924.png",
     "markdown/Http Request/PULL-PUSH/Hacking Apis/Untitled",
-    "markdown/Http Request/PULL-PUSH/Hacking Apis"
+    "markdown/Hacking Apis"
   ]
 }
