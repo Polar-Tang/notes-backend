@@ -8,31 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e703c05ee8769f31",
+            "id": "3893916f6d27b647",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/Portswigger/No-SQLI/Detecting_NoSQLI.md",
+                "file": "markdown/IP_Spoofing_Headers.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Detecting_NoSQLI"
+              "title": "IP_Spoofing_Headers"
             }
           },
           {
-            "id": "1e9373c36b2995e3",
+            "id": "2ced345b77d89c42",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/Portswigger/No-SQLI/no-SQLI_Portswigger_methodology.md",
+                "file": "markdown/Hacking Apis/evasive_techniques&rate_limit_testing/rotate-IP_with_burpsuite.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "no-SQLI_Portswigger_methodology"
+              "title": "rotate-IP_with_burpsuite"
             }
           }
         ],
@@ -92,7 +92,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 318.5
   },
   "right": {
     "id": "b102c3ed2bc65687",
@@ -177,20 +177,29 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1e9373c36b2995e3",
+  "active": "2ced345b77d89c42",
   "lastOpenFiles": [
-    "markdown/Portswigger/No-SQLI/Detecting_NoSQLI.md",
-    "markdown/Portswigger/No-SQLI/no-SQLI_Portswigger_methodology.md",
-    "Pasted image 20241027183410.png",
+    "Pasted image 20241029111259.png",
+    "Pasted image 20241029111227.png",
+    "Pasted image 20241029111141.png",
+    "Pasted image 20241029111018.png",
+    "Pasted image 20241029110100.png",
+    "Pasted image 20241029110013.png",
+    "Pasted image 20241029105901.png",
+    "markdown/Hacking Apis/evasive_techniques&rate_limit_testing/Testing_rate-limit.md",
+    "markdown/Hacking Apis/evasive_techniques&rate_limit_testing/rotate-IP_with_burpsuite.md",
+    "markdown/IP_Spoofing_Headers.md",
+    "markdown/Portswigger/OS command/OS_command_Portswigger_methodology.md",
+    "Pasted image 20241029103312.png",
+    "Pasted image 20241029103001.png",
+    "markdown/Hacking Apis/evasive_techniques&rate_limit_testing/evasive_techniques&rate_limit_testing.md",
+    "markdown/Hacking Apis/evasive_techniques&rate_limit_testing/Encoding_WFUZZ.md",
+    "markdown/Hacking Apis/evasive_techniques&rate_limit_testing",
+    "markdown/Hacking Apis/Cuadro-Apis.md",
+    "markdown/Hacking Apis/Broken_authorization.md",
+    "markdown/Hacking Apis/Mass Assignment attack.md",
     "markdown/Hacking Apis/Injection.md",
-    "1",
-    "Welcome.md",
-    "markdown/Portswigger/HTTP request smuggling/Client-Side Desync.md",
-    "markdown/Portswigger/HTTP request smuggling/Exploiting HTTP request smuggling to perform web cache poisoning.md",
-    "markdown/Portswigger/HTTP request smuggling/Exploiting HTTP request smuggling to reveal front-end request rewriting.md",
-    "markdown/Portswigger/HTTP request smuggling/H2.CL request smuggling.md",
-    "markdown/Portswigger/HTTP request smuggling/How to install HTTP-Garden.md",
-    "markdown/Portswigger/HTTP request smuggling/Untitled.canvas",
+    "markdown/Hacking Apis/Fuzzing.md",
     "markdown/Portswigger/HTTP request smuggling/Server-side pause-based request smuggling.md",
     "markdown/Portswigger/HTTP request smuggling/SEQUEL is always worse 2021.md",
     "markdown/Portswigger/HTTP request smuggling/self-spreading desynchronization worm.md",
@@ -199,24 +208,19 @@
     "markdown/Portswigger/HTTP request smuggling/HTTP2 request splitting via CRLF injection.md",
     "markdown/Portswigger/HTTP request smuggling/HTTP2 request smuggling via CRLF injection.md",
     "markdown/Portswigger/HTTP request smuggling/HTTP smuggling introduction.md",
-    "markdown/Portswigger/HTTP request smuggling/HTTP request smuggling, obfuscating the TE header.md",
-    "markdown/Portswigger/HTTP request smuggling/Exploiting HTTP request smuggling to bypass front-end security controls, CL.TE vulnerability.md",
-    "markdown/Portswigger/HTTP request smuggling/Exploiting HTTP request smuggling to bypass front-end security controls, TE.CL vulnerability.md",
-    "markdown/Portswigger/HTTP request smuggling/Exploiting HTTP request smuggling to capture other users_ requests.md",
-    "markdown/Portswigger/HTTP request smuggling/Exploiting HTTP request smuggling to deliver reflected XSS.md",
-    "markdown/Portswigger/HTTP request smuggling/Exploiting HTTP request smuggling to perform web cache deception.md",
-    "markdown/Http Request/Pasted image 20240709084256.png",
-    "markdown/Portswigger/HTTP request smuggling/Untitled.md",
     "markdown/Portswigger/HTTP request smuggling/HTTP pipeling.md",
+    "markdown/Portswigger/HTTP request smuggling/How to install HTTP-Garden.md",
+    "markdown/Portswigger/HTTP request smuggling/All about http smugglin.md",
+    "markdown/Portswigger/HTTP request smuggling/ALL TE PAYLOADS.md",
+    "markdown/Portswigger/HTTP request smuggling/Untitled.md",
+    "markdown/Portswigger/nosql-injection/no-SQLI_Portswigger_methodology.md",
+    "markdown/Portswigger/OS command",
+    "markdown/Portswigger/nosql-injection",
+    "Pasted image 20241027183410.png",
+    "Pasted image 20241027171915.png",
+    "1",
+    "markdown/Portswigger/HTTP request smuggling/Untitled.canvas",
     "markdown/Portswigger/HTTP request smuggling",
-    "markdown/Http Request/HTTP_Flow.webp",
-    "markdown/Http Request/https_clear.webp",
-    "markdown/Http Request/https_google_enc.webp",
-    "markdown/Http Request/Pasted image 20240707215950.png",
-    "markdown/Http Request/url_structure.webp",
-    "markdown/Http Request/Pasted image 20240709083959.png",
-    "markdown/Http Request/Pasted image 20240709083838.png",
-    "markdown/Http Request/Pasted image 20240709083633.png",
     "markdown/Http Request/PULL-PUSH/Hacking Apis/Untitled",
     "markdown/Hacking Apis"
   ]

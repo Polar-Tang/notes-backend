@@ -11,3 +11,5 @@ Now according to the RFC standard, when an HTTP request contains both the **CL*
 We know that GET requests don’t have a post body, but no such thing is laid out in the RFC standard. It only states that if you send post data along with GET request, then the servers might reject it. But if the server allows such a case due to misconfiguration, then it can be exploited in the wild.
 
 ![](https://blog.securelayer7.net/wp-content/uploads/2020/05/11.png)
+
+###### Brute force in intruder

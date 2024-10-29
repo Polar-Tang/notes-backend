@@ -155,7 +155,7 @@ Another interesting options worth to mention it are:
 -------
 ### No-SQLI
 
-No SQLI it's an umbrella term as refer to inject an injection from any database that isn't SQL. 
+No SQLI it's an umbrella term as refer to inject an injection from any database that isn't SQL.. This are example of commands.
 
 ```
 $gt 
@@ -189,7 +189,36 @@ The $nin operator is the “not in” operator, used to select documents where t
 ```
 This others commands are meant to cause an error or waiting 10 seconds
 
-**For examples check** [[Pixi]] [[crAPI]]
+**For examples check** [[Pixi]] [[crAPI]] [[no-SQLI_Portswigger_methodology]]
 
 -----
 
+### Comman injection
+Last but not least, **Comand Injection** is when you can execute commans from the machine.
+Here's some list of common commands:
+
+| Operating system |  Command  | Description                             |
+| :--------------: | :-------: | --------------------------------------- |
+|   **Windows**    | ipconfig  | Shows the network configuration         |
+|                  |    dir    | Prints the contents of a directory      |
+|                  |    ver    | Prints the operating system and version |
+|                  | echo %CD% | Prints the current working directory    |
+|                  |  whoami   | Prints the current user                 |
+
+|     Operating system     | Command  | Description                             |
+| :----------------------: | :------: | --------------------------------------- |
+| **nix (Linux and Unix)** | ifconfig | Shows the network configuration         |
+|                          |    ls    | Prints the contents of a directory      |
+|                          | uname -a | Prints the operating system and version |
+|                          |   pwd    | Prints the current working directory    |
+|                          |  whoami  | Prints the current user                 |
+
+With **OS command injection** you could do many harmful things 
+- You could retrieve SSH keys, the /etc/shadow
+
+You could test the commands avaible by fuzzing it
+```
+wfuzz -z file,wordlists/commandsep.txt -z file,wordlists/os-cmds.txt http://vulnerableAPI
+.com/api/users/query?=WFUZZWFUZ2Z
+```
+You cuold se more on [[OS_command_Portswigger_methodology]]
