@@ -73,7 +73,7 @@ and this result in the following mongodb query:
 ```js
 this.category == 'fizzy'||'1'=='1'
 ```
-Following this we'll solved the lab: [[Detecting_NoSQLI]]
+Following this we'll solved the lab: [[lab-nosql-injection-detection]]
 
 --------
 ## Operator Injection

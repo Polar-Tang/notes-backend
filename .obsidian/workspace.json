@@ -27,16 +27,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/Http Request/POST_Method.md",
+                "file": "crAPI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "POST_Method"
+              "title": "crAPI"
+            }
+          },
+          {
+            "id": "c7fca7b994271f97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "markdown/integer_overflow.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "integer_overflow"
+            }
+          },
+          {
+            "id": "205590047fa157ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "markdown/Portswigger/lab-logic-flaws-inconsistent-handling-of-exceptional-input.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lab-logic-flaws-inconsistent-handling-of-exceptional-input"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -67,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "number",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -177,45 +205,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "2ced345b77d89c42",
+  "active": "205590047fa157ec",
   "lastOpenFiles": [
-    "markdown/Http Request/GET_Method.md",
-    "markdown/Http Request/API_CRUD_METHODS.md",
-    "markdown/Http Request/POST_Method.md",
-    "Pasted image 20241031103803.png",
-    "markdown/Hacking Apis/evasive_techniques&rate_limit_testing/rotate-IP_with_burpsuite.md",
-    "Pasted image 20241029111259.png",
-    "Pasted image 20241029111227.png",
-    "Pasted image 20241029111141.png",
-    "Pasted image 20241029111018.png",
-    "Pasted image 20241029110100.png",
-    "Pasted image 20241029110013.png",
-    "Pasted image 20241029105901.png",
-    "markdown/Hacking Apis/evasive_techniques&rate_limit_testing/Testing_rate-limit.md",
-    "markdown/IP_Spoofing_Headers.md",
-    "markdown/Portswigger/OS command/OS_command_Portswigger_methodology.md",
-    "Pasted image 20241029103312.png",
-    "Pasted image 20241029103001.png",
-    "markdown/Hacking Apis/evasive_techniques&rate_limit_testing/evasive_techniques&rate_limit_testing.md",
-    "markdown/Hacking Apis/evasive_techniques&rate_limit_testing/Encoding_WFUZZ.md",
-    "markdown/Hacking Apis/evasive_techniques&rate_limit_testing",
-    "markdown/Hacking Apis/Cuadro-Apis.md",
+    "markdown/Portswigger/lab-logic-flaws-low-level.md",
+    "markdown/Portswigger/lab-logic-flaws-inconsistent-handling-of-exceptional-input.md",
+    "Pasted image 20241103122027.png",
+    "Pasted image 20241103121803.png",
+    "markdown/Portswigger/lab-logic-flaws-high-level.md",
+    "markdown/Portswigger/Access control vulnerabilities/lab-user-id-controlled-by-request-parameter-with-unpredictable-user-ids.md",
+    "markdown/integer_overflow.md",
     "markdown/Hacking Apis/Broken_authorization.md",
-    "markdown/Hacking Apis/Mass Assignment attack.md",
     "markdown/Hacking Apis/Injection.md",
-    "markdown/Hacking Apis/Fuzzing.md",
-    "markdown/Portswigger/HTTP request smuggling/Server-side pause-based request smuggling.md",
-    "markdown/Portswigger/HTTP request smuggling/SEQUEL is always worse 2021.md",
-    "markdown/Portswigger/HTTP request smuggling/self-spreading desynchronization worm.md",
-    "markdown/Portswigger/HTTP request smuggling/resumen defcon 2019 JK.md",
-    "markdown/Portswigger/HTTP request smuggling/Response queue poisoning via H2.TE request smuggling.md",
-    "markdown/Portswigger/HTTP request smuggling/HTTP2 request splitting via CRLF injection.md",
-    "markdown/Portswigger/HTTP request smuggling/HTTP2 request smuggling via CRLF injection.md",
-    "markdown/Portswigger/HTTP request smuggling/HTTP smuggling introduction.md",
-    "markdown/Portswigger/HTTP request smuggling/HTTP pipeling.md",
-    "markdown/Portswigger/HTTP request smuggling/How to install HTTP-Garden.md",
-    "markdown/Portswigger/HTTP request smuggling/All about http smugglin.md",
-    "markdown/Portswigger/HTTP request smuggling/ALL TE PAYLOADS.md",
+    "Pasted image 20241103110226.png",
+    "Pasted image 20241103110139.png",
+    "markdown/Portswigger/Portswigger's methodlogy.md",
+    "markdown/Portswigger/nosql-injection/no-SQLI_Portswigger_methodology.md",
+    "markdown/Portswigger/what's-on.md",
+    "markdown/Portswigger/Access control vulnerabilities/lab-insecure-direct-object-references.md",
+    "markdown/Portswigger/Access control vulnerabilities/lab-method-based-access-control-can-be-circumvented.md",
+    "markdown/Portswigger/Access control vulnerabilities/lab-multi-step-process-with-no-access-control-on-one-step.md",
+    "markdown/Portswigger/Access control vulnerabilities/lab-referer-based-access-control.md",
+    "markdown/Portswigger/Access control vulnerabilities/lab-user-id-controlled-by-request-parameter-with-password-disclosure.md",
+    "markdown/Portswigger/Access control vulnerabilities/Request_parameter_data_leakage.md",
+    "markdown/Portswigger/Access control vulnerabilities/lab-user-id-controlled-by-request-parameter-with-data-leakage-in-redirect.md",
+    "markdown/Portswigger/Access control vulnerabilities/lab-unprotected-admin-functionality.md",
+    "markdown/Portswigger/Access control vulnerabilities/lab-unprotected-admin-functionality-with-unpredictable-url.md",
+    "markdown/Portswigger/Access control vulnerabilities/lab-url-based-access-control-can-be-circumvented.md",
+    "markdown/Portswigger/Access control vulnerabilities/lab-user-id-controlled-by-request-parameter.md",
+    "markdown/Portswigger/Access control vulnerabilities/lab-user-role-can-be-modified-in-user-profile.md",
+    "markdown/Portswigger/Access control vulnerabilities/lab-user-role-controlled-by-request-parameter.md",
+    "markdown/Portswigger/nosql-injection/lab-nosql-injection-detection.md",
+    "markdown/Portswigger/nosql-injection/lab-nosql-injection-bypass-authentication.md",
+    "markdown/stratus doce.md",
+    "markdown/Http Request/https_google_enc.webp",
+    "markdown/Http Request/https_clear.webp",
+    "markdown/Http Request/HTTP_Flow.webp",
+    "Pasted image 20241102083101.png",
+    "Pasted image 20241031103803.png",
+    "Pasted image 20241029111259.png",
+    "markdown/Hacking Apis/evasive_techniques&rate_limit_testing",
     "markdown/Portswigger/OS command",
     "markdown/Portswigger/nosql-injection",
     "1",
