@@ -1,0 +1,272 @@
+{
+  "main": {
+    "id": "c20ec1f9ca214802",
+    "type": "split",
+    "children": [
+      {
+        "id": "5cd6f432eaf1f33a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e703c05ee8769f31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "markdown/Hacking Apis/Fuzzing.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Fuzzing"
+            }
+          },
+          {
+            "id": "1e9373c36b2995e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "markdown/Portswigger/Portswigger's methodlogy.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Portswigger's methodlogy"
+            }
+          },
+          {
+            "id": "6b735837f771471f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "markdown/Portswigger/Bussiness Logic flaw/lab-logic-flaws-excessive-trust-in-client-side-controls.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lab-logic-flaws-excessive-trust-in-client-side-controls"
+            }
+          },
+          {
+            "id": "8bf65afacb7cf176",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "markdown/Hacking Apis/Injection.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Injection"
+            }
+          },
+          {
+            "id": "4702c53c52faf604",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "markdown/Write-ups/(2) easy/Nahamstore.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Nahamstore"
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a0208b9886e0a6c5",
+    "type": "split",
+    "children": [
+      {
+        "id": "11311e6e6477e8ed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d8c77ea0108fdd83",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c282de8128ce54e3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "whonix",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "424d0ffb74a60453",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "b102c3ed2bc65687",
+    "type": "split",
+    "children": [
+      {
+        "id": "14a595cc1189ee7f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "112e121872869704",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "markdown/Http Request/PULL-PUSH/Hacking Apis/Broken authorization.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Broken authorization"
+            }
+          },
+          {
+            "id": "b8c98dcef8f2ff65",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "markdown/Http Request/PULL-PUSH/Hacking Apis/Broken authorization.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Broken authorization"
+            }
+          },
+          {
+            "id": "8832f98c08661667",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "be819e803c10b4bf",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "markdown/Http Request/PULL-PUSH/Hacking Apis/Broken authorization.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Broken authorization"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "4702c53c52faf604",
+  "lastOpenFiles": [
+    "markdown/Write-ups/(2) easy/crAPI.md",
+    "markdown/Write-ups/(2) easy/Nahamstore.md",
+    "markdown/Portswigger/Bussiness Logic flaw/Business_logic_flaw.md",
+    "markdown/Portswigger/Bussiness Logic flaw/lab-logic-flaws-excessive-trust-in-client-side-controls.md",
+    "Pasted image 20241102160434.png",
+    "Pasted image 20241102160211.png",
+    "markdown/ode to the darknet/tor.md",
+    "markdown/Hacking Apis/Injection.md",
+    "markdown/Portswigger/Information Disclosure/lab-infoleak-in-version-control-history.md",
+    "markdown/Portswigger/Bussiness Logic flaw",
+    "Pasted image 20241102011829.png",
+    "markdown/ode to the darknet/install_vmware_onlinux.md",
+    "markdown/ode to the darknet/broadcom.md",
+    "Pasted image 20241101224710.png",
+    "markdown/ode to the darknet",
+    "markdown/Portswigger/Information Disclosure/Untitled.md",
+    "markdown/Portswigger/Information Disclosure/lab-infoleak-on-debug-page.md",
+    "markdown/Portswigger/Information Disclosure/lab-infoleak-in-error-messages.md",
+    "markdown/Portswigger/Information Disclosure/lab-infoleak-via-backup-files.md",
+    "markdown/IP_Spoofing_Headers.md",
+    "markdown/Portswigger/Portswigger's methodlogy.md",
+    "markdown/Hacking Apis/Fuzzing.md",
+    "Pasted image 20241101202421.png",
+    "Pasted image 20241101202140.png",
+    "Pasted image 20241101163517.png",
+    "Pasted image 20241101163230.png",
+    "Pasted image 20241101161339.png",
+    "markdown/Write-ups/(1) baby/Juici-shop(tryhackme-room).md",
+    "markdown/Portswigger/Information Disclosure",
+    "Pasted image 20241101151250.png",
+    "markdown/Hacking Apis/evasive_techniques&rate_limit_testing/rotate-IP_with_burpsuite.md",
+    "markdown/Hacking Apis/Broken_authorization.md",
+    "markdown/Install_caido.md",
+    "markdown/Untitled 1",
+    "markdown/Untitled",
+    "markdown/Web FUndamentals/DNS.md",
+    "markdown/Http Request/POST_Method.md",
+    "markdown/Http Request/GET_Method.md",
+    "markdown/Http Request/API_CRUD_METHODS.md",
+    "crAPI.md",
+    "markdown/Web FUndamentals/Web.md",
+    "markdown/Web FUndamentals",
+    "crapi_scan.xml",
+    "crapi_scan.gnmap",
+    "crapi_scan.nmap",
+    "docker-compose.yml",
+    "markdown/Portswigger/HTTP request smuggling/Untitled.canvas"
+  ]
+}
