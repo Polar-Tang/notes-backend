@@ -75,4 +75,5 @@ XPROXY: 127.0.0.1
 XROXY_CONNECTION: 127.0.0.1
 Z-Forwarded-For: 127.0.0.1
 ZCACHE_CONTROL: 127.0.0.1
+X-Custom-IP-Authorization: 127.0.0.1
 ```
