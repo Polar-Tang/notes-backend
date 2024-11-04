@@ -1,0 +1,4 @@
+## I
+http://10.10.31.123/socket.io/?EIO=3&transport=polling&t=PBaiUC2
+
+wfuzz -z list,A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z -z list,A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z -z list,A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z -z list,A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z -z list,A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z -z list,A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z -z list,A-B-C-D-E-F-G-H-I-J-K-L-M-N-O-P-Q-R-S-T-U-V-W-X-Y-Z -m product -u 'http://10.10.31.123/socket.io/?EIO=3&transport=polling&t=FUZZFUZ2ZFUZ3ZFUZ4ZFUZ5ZFUZ6ZFUZ7Z' -p localhost:8080
