@@ -8,77 +8,59 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e703c05ee8769f31",
+            "id": "fbadc93abef81f70",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/Hacking Apis/Fuzzing.md",
+                "file": "markdown/Portswigger/Information Disclosure/lab-infoleak-on-debug-page.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fuzzing"
+              "title": "lab-infoleak-on-debug-page"
             }
           },
           {
-            "id": "1e9373c36b2995e3",
+            "id": "91c6b72def0cb579",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "markdown/Portswigger/Portswigger's methodlogy.md",
-                "mode": "source",
-                "source": false
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Portswigger's methodlogy"
+              "title": "New tab"
             }
           },
           {
-            "id": "6b735837f771471f",
+            "id": "319f2ee1f0dfd8b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/Portswigger/Bussiness Logic flaw/lab-logic-flaws-excessive-trust-in-client-side-controls.md",
+                "file": "markdown/Portswigger/SQLI/summary_SQLI.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lab-logic-flaws-excessive-trust-in-client-side-controls"
+              "title": "summary_SQLI"
             }
           },
           {
-            "id": "8bf65afacb7cf176",
+            "id": "a9503749d7849ebc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/Hacking Apis/Injection.md",
+                "file": "markdown/Portswigger/SQLI/lab-conditional-responses.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Injection"
-            }
-          },
-          {
-            "id": "4702c53c52faf604",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "markdown/Write-ups/(2) easy/Nahamstore.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Nahamstore"
+              "title": "lab-conditional-responses"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -109,7 +91,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "whonix",
+                "query": "https://portswigger.net/web-security/sql-injection/blind/lab-conditional-responses",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -219,54 +201,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4702c53c52faf604",
+  "active": "a9503749d7849ebc",
   "lastOpenFiles": [
-    "markdown/Write-ups/(2) easy/crAPI.md",
-    "markdown/Write-ups/(2) easy/Nahamstore.md",
-    "markdown/Portswigger/Bussiness Logic flaw/Business_logic_flaw.md",
+    "markdown/Portswigger/SQLI/summary_SQLI.md",
+    "markdown/Portswigger/SQLI/lab-conditional-responses.md",
+    "markdown/Portswigger/SQLI/lab-determine-number-of-columns.md",
+    "markdown/Portswigger/SQLI/SQL-basics.md",
+    "Pasted image 20241107220012.png",
+    "Pasted image 20241107215546.png",
+    "markdown/Portswigger/Autenthication/lab-broken-brute-force-protection-multiple-credentials-per-request.md",
+    "markdown/Portswigger/SQLI/lab-retrieve-data-from-other-tables.md",
+    "markdown/Portswigger/SQLI/lab-retrieve-hidden-data.md",
+    "markdown/Portswigger/SQLI/lab-login-bypass.md",
+    "Pasted image 20241107154110.png",
+    "markdown/Untitled.md",
+    "markdown/Portswigger/Autenthication/lab-broken-bruteforce-protection-ip-block.md",
+    "markdown/Portswigger/Bussiness Logic flaw/lab-logic-flaws-insufficient-workflow-validation.md",
+    "markdown/Portswigger/nosql-injection/lab-nosql-injection-detection.md",
+    "markdown/Portswigger/nosql-injection/lab-nosql-injection-bypass-authentication.md",
+    "markdown/Portswigger/Autenthication/lab-password-reset-broken-logic.md",
+    "markdown/Portswigger/Autenthication/lab-2fa-simple-bypass.md",
+    "Pasted image 20241107112412.png",
+    "Pasted image 20241107110813.png",
+    "markdown/Portswigger/Autenthication/username-5times.py.md",
+    "markdown/Portswigger/SQLI",
+    "markdown/Portswigger/Autenthication/broken-ip.py.md",
+    "markdown/Portswigger/Information Disclosure/lab-infoleak-authentication-bypass.md",
+    "markdown/Portswigger/Bussiness Logic flaw/summary_logic_flaw.md",
+    "markdown/Portswigger/Bussiness Logic flaw/lab-logic-flaws-weak-isolation-on-dual-use-endpoint.md",
+    "markdown/Portswigger/Bussiness Logic flaw/lab-logic-flaws-low-level.md",
+    "markdown/Portswigger/Bussiness Logic flaw/lab-logic-flaws-inconsistent-security-controls.md",
+    "markdown/Portswigger/Bussiness Logic flaw/lab-logic-flaws-inconsistent-handling-of-exceptional-input.md",
+    "markdown/Portswigger/Bussiness Logic flaw/lab-logic-flaws-high-level.md",
     "markdown/Portswigger/Bussiness Logic flaw/lab-logic-flaws-excessive-trust-in-client-side-controls.md",
-    "Pasted image 20241102160434.png",
-    "Pasted image 20241102160211.png",
-    "markdown/ode to the darknet/tor.md",
-    "markdown/Hacking Apis/Injection.md",
-    "markdown/Portswigger/Information Disclosure/lab-infoleak-in-version-control-history.md",
+    "Pasted image 20241106195251.png",
+    "Pasted image 20241106194736.png",
+    "Pasted image 20241106192333.png",
+    "Pasted image 20241106192057.png",
+    "Pasted image 20241106191356.png",
+    "markdown/lab-broken-bruteforce-protection-ip-block",
+    "markdown/Portswigger/Autenthication",
+    "markdown/Portswigger/Feroxbuster_.txt",
     "markdown/Portswigger/Bussiness Logic flaw",
-    "Pasted image 20241102011829.png",
-    "markdown/ode to the darknet/install_vmware_onlinux.md",
-    "markdown/ode to the darknet/broadcom.md",
-    "Pasted image 20241101224710.png",
     "markdown/ode to the darknet",
-    "markdown/Portswigger/Information Disclosure/Untitled.md",
-    "markdown/Portswigger/Information Disclosure/lab-infoleak-on-debug-page.md",
-    "markdown/Portswigger/Information Disclosure/lab-infoleak-in-error-messages.md",
-    "markdown/Portswigger/Information Disclosure/lab-infoleak-via-backup-files.md",
-    "markdown/IP_Spoofing_Headers.md",
-    "markdown/Portswigger/Portswigger's methodlogy.md",
-    "markdown/Hacking Apis/Fuzzing.md",
-    "Pasted image 20241101202421.png",
-    "Pasted image 20241101202140.png",
-    "Pasted image 20241101163517.png",
-    "Pasted image 20241101163230.png",
-    "Pasted image 20241101161339.png",
-    "markdown/Write-ups/(1) baby/Juici-shop(tryhackme-room).md",
     "markdown/Portswigger/Information Disclosure",
-    "Pasted image 20241101151250.png",
-    "markdown/Hacking Apis/evasive_techniques&rate_limit_testing/rotate-IP_with_burpsuite.md",
-    "markdown/Hacking Apis/Broken_authorization.md",
-    "markdown/Install_caido.md",
     "markdown/Untitled 1",
     "markdown/Untitled",
-    "markdown/Web FUndamentals/DNS.md",
-    "markdown/Http Request/POST_Method.md",
-    "markdown/Http Request/GET_Method.md",
-    "markdown/Http Request/API_CRUD_METHODS.md",
-    "crAPI.md",
-    "markdown/Web FUndamentals/Web.md",
     "markdown/Web FUndamentals",
-    "crapi_scan.xml",
-    "crapi_scan.gnmap",
-    "crapi_scan.nmap",
-    "docker-compose.yml",
     "markdown/Portswigger/HTTP request smuggling/Untitled.canvas"
   ]
 }
