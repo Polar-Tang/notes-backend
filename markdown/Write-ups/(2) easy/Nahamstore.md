@@ -11,7 +11,7 @@ feroxbuster -u http://nahamstore.thm-w/usr/share/seclists/Discovery/Web-Content/
 ```
 
 ```sh
-for domain in $(cat subdominios.txt); do feroxbuster -u http://$domain -w/usr/share/seclists/Discovery/Web-Content/raft-medium-directories.txt -t 100time-limit in-burp-replay -o ./Feroxbuster_$domain.txt; done
+for domain in $(cat subdominios.txt); do feroxbuster -u http://$domain -w /usr/share/seclists/Discovery/Web-Content/raft-medium-directories.txt -t 100time-limit in-burp-replay -o ./Feroxbuster_$domain.txt; done
 ```
 
 ```sh

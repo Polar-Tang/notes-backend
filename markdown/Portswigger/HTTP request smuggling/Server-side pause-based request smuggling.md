@@ -12,7 +12,7 @@ Hay una variable "smuggled_request" en donde está el host de la página propia,
 Tenemos un attack requets que es una petición post a una ruta.
 El pauseMarker tiene definido también una solicitud GET con dos CRLF.
 Cuando ejecutemos esto, obtendremos un 404 que confirma la race condition
-```
+```py
  def queueRequests(target, _):
     engine = RequestEngine(
         endpoint="https://LAB_ID.web-security-academy.net:443",

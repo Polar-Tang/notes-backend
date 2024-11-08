@@ -1,1 +1,0 @@
-If do you want to see the headers and param miner doesn't detect any, there's no request reflection, the only way is by sending a TRACE
