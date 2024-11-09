@@ -3,7 +3,7 @@ Run a fuzzing to discover hidden endpoints
 
 (this solve these labs [Unprotected admin functionality][Unprotected-admin-functionality], [[lab-unprotected-admin-functionality]])
 #### 2. Explore the web-contet
-Explore the page throug the UI (User Interface) with burpsuite growing the http history behind
+Explore the page throug the UI (User Interface), with intercept off and with burpsuite growing the http history behind, This is called **walking through**
 
 (this solve these labs [[lab-user-id-controlled-by-request-parameter-with-unpredictable-user-ids]], [[lab-insecure-direct-object-references]])
 ###### In every endpoint: 

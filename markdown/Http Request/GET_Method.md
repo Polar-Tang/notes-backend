@@ -6,10 +6,13 @@ If we access directly at the page, using the i flags to see the header, then we 
 curl -i http://<SERVER_IP>:<PORT>/
 ```
 But if we provide the credentials using `-u` flag, we cain gain access to the response
-Also we could use the following sintax to provide the credentials: `username:password@URL`
+Also we could use the following sintax to provide the credentials: `username:password@URL`,
+
 ```shell
  curl http://admin:admin@<SERVER_IP>:<PORT>/
 ```
+>`@` separates credentials from the host address. This format follows the general URI scheme and allows for credentials to be embedded directly in the URL for basic access authentication (although it’s not recommended for sensitive or secure data)
+
 As the token session is the basic we should use the -H parameter to send that as a header
 ```shell
 curl -H 'Authorization: Basic YWRtaW46YWRtaW4=' http://<SERVER_IP>:<PORT>/

@@ -1,5 +1,5 @@
 ### Fuzzing
-The key ffrom fuzzing is to cause some anomalie on the api, for example using a strin as a parameter and getting this response:
+The key ffrom fuzzing is to cause some anomalies on the api, **for example** using a string id as a parameter and getting this response:
 ```
 HTTP/1.1 400 Bad Request
 {
