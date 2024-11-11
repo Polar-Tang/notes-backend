@@ -1,4 +1,6 @@
 https://portswigger.net/web-security/sql-injection/union-attacks/lab-retrieve-data-from-other-tables
+To select any wata we must use `UNION SELECT` instead of simply `UNION` because we are injection a query into another
+
 If we could retrieve data from certain column, you should use `from` keyword
 ```
 ' UNION SELECT username, password FROM users--
