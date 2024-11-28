@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/Portswigger/SQLI/SQL-basics.md",
+                "file": "markdown/Web FUndamentals/DNS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "SQL-basics"
+              "title": "DNS"
             }
           },
           {
@@ -207,6 +207,12 @@
   },
   "active": "2ced345b77d89c42",
   "lastOpenFiles": [
+    "markdown/Portswigger/SQLI/SQLI.md",
+    "Pasted image 20241111204934.png",
+    "Pasted image 20241111204318.png",
+    "Pasted image 20241111204042.png",
+    "markdown/Portswigger/SQLI/SQL-basics.md",
+    "markdown/Portswigger/SQLI/ad.md",
     "markdown/Portswigger/SQLI/lab-listing-database-contents-non-oracle.md",
     "Pasted image 20241110015657.png",
     "markdown/Portswigger/SQLI/lab-login-bypass.md",
@@ -217,7 +223,6 @@
     "markdown/Portswigger/SQLI/lab-conditional-responses.md",
     "markdown/Portswigger/SQLI/lab-retrieve-hidden-data.md",
     "markdown/IP_Spoofing_Headers.md",
-    "markdown/Portswigger/SQLI/SQL-basics.md",
     "Pasted image 20241109110128.png",
     "Pasted image 20241109102914.png",
     "markdown/Portswigger/SQLI/summary_SQLI.md",
@@ -240,8 +245,6 @@
     "markdown/Portswigger/Autenthication/lab-username-enumeration-via-different-responses.md",
     "markdown/Portswigger/Autenthication/lab-username-enumeration-via-account-lock.md",
     "markdown/Portswigger/Autenthication/lab-password-reset-broken-logic.md",
-    "markdown/Portswigger/Autenthication/lab-broken-brute-force-protection-multiple-credentials-per-request.md",
-    "markdown/Portswigger/Autenthication/lab-broken-bruteforce-protection-ip-block.md",
     "markdown/Portswigger/Autenthication",
     "markdown/ode to the darknet",
     "markdown/Portswigger/Information Disclosure",
@@ -249,9 +252,6 @@
     "Pasted image 20241107220012.png",
     "Pasted image 20241107215546.png",
     "Pasted image 20241107154110.png",
-    "Pasted image 20241107112412.png",
-    "Pasted image 20241107110813.png",
-    "Pasted image 20241106195251.png",
     "markdown/Portswigger/HTTP request smuggling/Untitled.canvas"
   ]
 }
