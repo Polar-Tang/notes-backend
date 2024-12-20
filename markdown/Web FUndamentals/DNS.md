@@ -1,6 +1,11 @@
-This is a summary from https://tryhackme.com/r/room/dnsindetail
+Sources:
+- https://tryhackme.com/r/room/dnsindetail
+- https://www.boot.dev/
 
 ----------
+
+In the real world we use addresses to locate someplace and the IP address is just the same  
+
 
 DNS is the "Domain Name System" in very simplified words, it turns an IP from an arbitrary string. 
 DNS works with transport-layer protocols such as UDP (and sometimes TCP) on port 53.

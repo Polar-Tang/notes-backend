@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/Web FUndamentals/DNS.md",
+                "file": "markdown/Hash.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "DNS"
+              "title": "Hash"
             }
           },
           {
@@ -95,7 +95,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "https://portswigger.net/web-security/sql-injection/examining-the-database/lab-listing-database-contents-non-oracle",
+                "query": "hash",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -207,6 +207,14 @@
   },
   "active": "2ced345b77d89c42",
   "lastOpenFiles": [
+    "markdown/Portswigger/Information Disclosure/lab-infoleak-in-version-control-history.md",
+    "markdown/Hash.md",
+    "markdown/Portswigger/Information Disclosure/lab-infoleak-in-error-messages.md",
+    "markdown/Portswigger/Information Disclosure/lab-infoleak-authentication-bypass.md",
+    "markdown/Web FUndamentals/domain name.md",
+    "markdown/Web FUndamentals/DNS.md",
+    "markdown/Portswigger/Information Disclosure/lab-infoleak-on-debug-page.md",
+    "markdown/Portswigger/Information Disclosure/lab-infoleak-via-backup-files.md",
     "markdown/Portswigger/SQLI/SQLI.md",
     "Pasted image 20241111204934.png",
     "Pasted image 20241111204318.png",
@@ -232,19 +240,12 @@
     "markdown/Write-ups/(1) baby/Juici-shop(tryhackme-room).md",
     "markdown/Write-ups/(2) easy/crAPI.md",
     "markdown/Write-ups/(0) sperm/reqres.in.md",
-    "markdown/Write-ups/Untitled.md",
     "markdown/Write-ups/(2) easy",
     "markdown/Write-ups/(1) baby",
     "markdown/Write-ups/(0) sperm",
     "markdown/Write-ups",
-    "markdown/Web FUndamentals/DNS.md",
     "markdown/Web FUndamentals",
     "markdown/Portswigger/SQLI",
-    "markdown/Portswigger/Autenthication/lab-username-enumeration-via-subtly-different-responses.md",
-    "markdown/Portswigger/Autenthication/username-5times.py.md",
-    "markdown/Portswigger/Autenthication/lab-username-enumeration-via-different-responses.md",
-    "markdown/Portswigger/Autenthication/lab-username-enumeration-via-account-lock.md",
-    "markdown/Portswigger/Autenthication/lab-password-reset-broken-logic.md",
     "markdown/Portswigger/Autenthication",
     "markdown/ode to the darknet",
     "markdown/Portswigger/Information Disclosure",
