@@ -1,0 +1,1 @@
+The `<-` operator is called the _[[chan]] operator_. Data flows in the direction of the arrow. This operation will [_block_](https://en.wikipedia.org/wiki/Blocking_(computing)) until another goroutine is ready to receive the value.
