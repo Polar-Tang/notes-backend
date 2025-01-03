@@ -14,7 +14,7 @@ Using this payload:
 TrackingId=xyz' AND (SELECT 'a' FROM users LIMIT 1)='a
 ```
 
-`(SELECT 'a' FROM users LIMIT 1)` this is **fetch a Single Row** (`LIMIT 1`), and it's selecting the letter 'a' from the users table, so if there's any table this will be truly, so `(SELECT 'a' FROM users LIMIT 1)='a'` would be truth it there's any row on the **users table**.
+`(SELECT 'a' FROM users LIMIT 1)` this is **fetch a Single Row** (`LIMIT 1`), and it's selecting the letter 'a' from the users table, so if there's any table which start with a this will be truly, so `(SELECT 'a' FROM users LIMIT 1)='a'` would be truth it there's any row on the **users table**.
 
 So here we are using the AND operator, this means the query returns true if both conditions (the cookie which is truly) and the sub-query are truly, then the 'welcome' will be displayed.
 The query resulting would look like:

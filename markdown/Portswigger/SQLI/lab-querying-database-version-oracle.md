@@ -14,5 +14,3 @@ And after then we corroborate we should check the version using `v$version`, so 
 ```url
 %27+UNION+SELECT+banner,null+FROM+v$version--
 ```
-
-FLStudio.v24.1.2.4394.WiN.audiotools.in

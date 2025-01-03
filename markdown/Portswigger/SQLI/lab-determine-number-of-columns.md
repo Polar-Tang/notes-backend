@@ -1,6 +1,6 @@
 https://portswigger.net/web-security/sql-injection/union-attacks/lab-determine-number-of-columns
 
-Using the folowing URL `/filter?category=%27%20UNION%20SELECT%20NULL,NULL,NULL--` now we know we have 3 columns
+It not retrieves error until there's three columns `/filter?category=%27%20UNION%20SELECT%20NULL,NULL,NULL--` now we know we have 3 columns
 
 Enumerate the numbers of columns
 and use the that query
