@@ -1,4 +1,4 @@
-As go only has a `for` loop we should do many of the other loop thing by only using for. As we could [[omiting statements]] a while is just a for that only has a condition:
+As go only has a `for` loop we should do many of the other loop thing by only using for. As we could [[markdown/short_notes.go/looping/omiting statements]] a while is just a for that only has a condition:
 ```go
 for CONDITION {
   // do some stuff while CONDITION is true

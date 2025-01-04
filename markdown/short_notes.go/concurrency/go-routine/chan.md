@@ -1,4 +1,4 @@
-A **channel** is a type used for communication between [[Goroutine]] or normal function, they pass values with no needing of return statements.
+A **channel** is a type used for communication between [[markdown/short_notes.go/concurrency/go-routine/Goroutine]] or normal function, they pass values with no needing of return statements.
 It allows one goroutine to send data and another to receive it, ensuring **thread-safe communication**.
 #### Declaration
 Creates a channel of type `int`.
@@ -36,7 +36,7 @@ func main() {
 ```
 
 #### Example
-Here we create a fibonacci, with no return statements, if the function do not have the `go` keyword it will never be executed, and it would cause a [[deadlock]].
+Here we create a fibonacci, with no return statements, if the function do not have the `go` keyword it will never be executed, and it would cause a [[markdown/short_notes.go/concurrency/go-routine/deadlock]].
 ```go
 package main
 
@@ -67,5 +67,5 @@ func fibonacci(n int, ch chan int) {
 ```
 
 #### Make an arbitrary limit of channels
-With a [[buffered-chanel]]
+With a [[markdown/short_notes.go/concurrency/go-routine/buffered-chanel]]
 ![[Pasted image 20241215123354.png]]

@@ -1,6 +1,6 @@
 
 ### Composite litelars
-We could declare the array as [[composite_literals]]
+We could declare the array as [[markdown/short_notes.go/data-types/composite_literals]]
 We could aclare the values in order to their indexes:
 ```go
 arr := [5]int{0: 1, 1: 2, 3: 4} // [1, 2, 0, 4, 0]

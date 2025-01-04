@@ -1,4 +1,4 @@
-we could use [[new request]] method and set it as a delete
+we could use [[markdown/short_notes.go/built-in functions/packages/net http/new request]] method and set it as a delete
 
 ```go
 req, err := http.NewRequest("DELETE", url, nil)

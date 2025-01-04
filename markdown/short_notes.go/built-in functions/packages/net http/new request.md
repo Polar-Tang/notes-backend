@@ -12,7 +12,7 @@ If you want to add some headers to the request you should use the: `req.Header.A
 req.Header.Add("X-API-Key", apiKey)
 req.Header.Add("Content-Type", "application/json")
 ```
-Now we craft the request, but we didn't send it. So let's utilize the [[http client]]
+Now we craft the request, but we didn't send it. So let's utilize the [[markdown/short_notes.go/built-in functions/packages/net http/http client]]
 ```go
 client := &http.Client{}
 res, err := client.Do(req)

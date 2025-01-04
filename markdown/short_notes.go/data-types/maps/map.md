@@ -1,10 +1,10 @@
-A map is a key-values pair that utilizes hash table, [[maps-are-faster]]. 
+A map is a key-values pair that utilizes hash table, [[markdown/short_notes.go/data-types/maps/maps-are-faster]]. 
 The syntax is the following:
 ```go
 map[KeyType]ValueType
 ```
 
-- **`KeyType`** should be any type of the [[comparable-types]]
+- **`KeyType`** should be any type of the [[markdown/short_notes.go/data-types/maps/comparable-types]]
 - **`ValueType`** could be any type, even a map
 -----
 ##### Maps are passed by reference
@@ -17,8 +17,8 @@ the keytype is a strin and the value type is an int:
 ```go
 var m map[string]int
 ```
-The [[zero_value]] of a map is nil.
-But this will cause a run time panic. To avoid that use a [[make]] for better [[memory-allocating]]
+The [[markdown/short_notes.go/varaible declaration/zero_value]] of a map is nil.
+But this will cause a run time panic. To avoid that use a [[markdown/short_notes.go/data-types/slice/make]] for better [[markdown/short_notes.go/memory/memory-allocating]]
 ##### Initialize the map thus:
 ```GO
 m := make(map[string]int)
@@ -75,7 +75,7 @@ type Key struct {
 }
 hits := make(map[Key]int)
 ```
- we use the [[mutation]], which is a feature of the map, and we were just changing an element of the map and not the entire map
+ we use the [[markdown/short_notes.go/data-types/maps/mutation]], which is a feature of the map, and we were just changing an element of the map and not the entire map
 ```go
  hits[Key{"/", "vn"}]++
 ```
@@ -98,7 +98,7 @@ elem = m[key]
 ```
 - This expression does **not** just refer to the key (`message`).
 - It actually accesses the **value** associated with the key `message` in the `validUsers` map.
-If you try to get a value that doesn't exist, you will get its [[zero_value]]
+If you try to get a value that doesn't exist, you will get its [[markdown/short_notes.go/varaible declaration/zero_value]]
 No need to use a for to access to the code:
 ```go
 func deleteIfNecessary(users map[string]user, name string) (deleted bool, err error) {
@@ -133,7 +133,7 @@ elem, ok := m[key]
 If 
 
 #### Iterate over the map
-To iterate on the maps you MUST utilize [[for...range]] 
+To iterate on the maps you MUST utilize [[markdown/short_notes.go/looping/for...range]] 
 ```go
 for key, value := range m {
     fmt.Println("Key:", key, "Value:", value)

@@ -1,4 +1,4 @@
-In go channels sending an [[empty_struct]] is unary value, which means that is an operation that receives a single input.
+In go channels sending an [[markdown/short_notes.go/data-types/struct/empty_struct]] is unary value, which means that is an operation that receives a single input.
 We can block and wait until _something_ is sent on a channel using the following syntax
 ```go
 <-ch
@@ -42,4 +42,4 @@ go func(file api.FileInfo) {
                 result := download.ProcessFile(file, extensions)
 }
 ```
-First we create a semaphore, a [[buffered-chanel]], and everty time the go function executes send that empty struct, when reach the limit of the buffer, it finnaly awaits blocking the channel `<-semaphore`
+First we create a semaphore, a [[markdown/short_notes.go/concurrency/go-routine/buffered-chanel]], and everty time the go function executes send that empty struct, when reach the limit of the buffer, it finnaly awaits blocking the channel `<-semaphore`

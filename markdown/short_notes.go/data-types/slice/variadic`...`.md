@@ -4,7 +4,7 @@ it's used to accept an undefined quantity of something.
 func concat(strs ...string) string
 ```
 This could concatenate zero or more types, so whatever quantity you pass to the function it will accept it
-We could use [[append]] to dinamically add some content
+We could use [[markdown/short_notes.go/data-types/slice/append]] to dinamically add some content
 
 If i do not have a variadic i should create a for to iterate and search all over the thing.
 ```go

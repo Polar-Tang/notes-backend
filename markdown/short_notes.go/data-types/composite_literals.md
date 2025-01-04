@@ -30,7 +30,7 @@ type Point struct {
 
 p := Point{10, 20} // X: 10, Y: 20
 ```
-Create a [[pointer]]
+Create a [[markdown/short_notes.go 1/pointer]]
 ```go
 p := &Point{X: 1.5, Y: -2.3} // Creates a pointer to Point{1.5, -2.3}
 ```
@@ -43,7 +43,7 @@ arr := [5]int{0: 1, 1: 2, 3: 4} // [1, 2, 0, 4, 0]
 ```
 If fewer elements than the length are provided in the literal, the missing elements are set to the zero value for the array element type. 
 ###### Map
-On the other hand [[map]]s are always initializated and declared, as they are pair values, the thing need to be explicit
+On the other hand [[markdown/short_notes.go/data-types/maps/map]]s are always initializated and declared, as they are pair values, the thing need to be explicit
 ```go
 ages := map[string]int{
     "Alice": 25,

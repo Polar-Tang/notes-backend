@@ -6,7 +6,7 @@ fmt.Printf("value of p: %v\n", p)
 // value of p: <nil>
 ```
 This is called an Empty-Pointer
-When you try to [[dereference]] a Empty-Pointer it will cause a [[short_notes/short_notes.go/data-types/erros/panic|panic]] 
+When you try to [[markdown/short_notes.go/memory/pointer/dereference]] a Empty-Pointer it will cause a [[markdown/short_notes.go 1/data-types/erros/panic|panic]] 
 #### Avoid the issue
 So we will want to ensure the pointer it's not aiming to a nil value, check the value
 ```go

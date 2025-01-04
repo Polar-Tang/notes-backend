@@ -1,4 +1,4 @@
-json.Decoder Works with text already extracted from [[io reader]]. Json decoder can be more memory-efificient than [[json unmarshal]] so dealing with http request and response we slighlty will prefer to use this instead of unmarshall.
+json.Decoder Works with text already extracted from [[io reader]]. Json decoder can be more memory-efificient than [[markdown/short_notes.go/built-in functions/packages/encoding json/json unmarshal]] so dealing with http request and response we slighlty will prefer to use this instead of unmarshall.
 
 ```go
 // res is an http.Response

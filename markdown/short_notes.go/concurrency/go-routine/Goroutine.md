@@ -45,7 +45,7 @@ func main() {
 ```
 - The part `func(file api.FileInfo)` defines an **anonymous function** that accepts an argument of type `api.FileInfo`.
 - At the end, `(fileInfo)` **calls the anonymous function** with `fileInfo` as the argument.
-But it's actually more safe to utilize [[chan]]els for  type to comunication
+But it's actually more safe to utilize [[markdown/short_notes.go/concurrency/go-routine/chan]]els for  type to comunication
 ```go
   func main() {
     c := make(chan string) // initialize it
@@ -69,9 +69,9 @@ func count(thing string, c chan string) {
 - The function count isn't returning anything, but when it does `c <- fmt.Sprintf("%s: %d", thing, i)` is placing that sprintf (string) in the channel c 
 - Another go routine or function now can receives that value from the channel 
 **The main function**
-- Now the main function uses the [[arrow-operator]] `msg := <-c` 
+- Now the main function uses the [[markdown/short_notes.go/operators/arrow-operator]] `msg := <-c` 
 - i'm not directly invoking `count` function, its used whenever i used the same channel.
-But this will cause a [[deadlock]] because msg is always waiting for c, so use the close method to [[close-the-chan]], which will "delete" the chanel, so let's check for its existence too.
+But this will cause a [[markdown/short_notes.go/concurrency/go-routine/deadlock]] because msg is always waiting for c, so use the close method to [[markdown/short_notes.go/concurrency/go-routine/close-the-chan]], which will "delete" the chanel, so let's check for its existence too.
 ```go
 func main() {
     c := make(chan string) // initialize it

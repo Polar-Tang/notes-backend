@@ -1,4 +1,4 @@
-We could use [[variadic`...`]] to add some content dinamically
+We could use [[markdown/short_notes.go/data-types/slice/variadic`...`]] to add some content dinamically
 ```go
 func append(slice []Type, elems ...Type) []Type
 ```

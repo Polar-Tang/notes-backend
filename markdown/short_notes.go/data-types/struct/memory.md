@@ -1,4 +1,4 @@
-The [[struct]] in go occupy memory. The fields are placed right after another as defined in the struct.
+The [[markdown/short_notes.go/data-types/struct/struct]] in go occupy memory. The fields are placed right after another as defined in the struct.
 Take this **example**:
 ```go
 type stats struct {

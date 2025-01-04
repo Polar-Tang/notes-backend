@@ -1,4 +1,4 @@
-Mutexes (the term refers to [[Mutual exclusion]]) are [[readers-writer lock]]s that locks and unlocks access to data , so we could use this to ensure we where we could access to any data in certain time, so it's pretty useful for [[Goroutine]].
+Mutexes (the term refers to [[markdown/short_notes.go/concurrency/mutexes/Mutual exclusion]]) are [[markdown/short_notes.go/concurrency/mutexes/readers-writer lock]]s that locks and unlocks access to data , so we could use this to ensure we where we could access to any data in certain time, so it's pretty useful for [[markdown/short_notes.go/concurrency/go-routine/Goroutine]].
 T
 They are two commands.
 - `Lock()`

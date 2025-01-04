@@ -27,4 +27,4 @@ fmt.Println("last modified: ", header)
 res.Header.Del("last-modified")
 ```
 First come the name of the header and then the value.
-To retrieve a header from the response, see [[get net http]]
+To retrieve a header from the response, see [[markdown/short_notes.go/built-in functions/packages/net http/get net http]]
