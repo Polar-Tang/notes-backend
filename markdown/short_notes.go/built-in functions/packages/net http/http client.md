@@ -1,1 +1,0 @@
-This is the customization of how our request is sent, by default it is like [[http default client]]

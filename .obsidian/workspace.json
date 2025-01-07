@@ -13,12 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/Portswigger/SQLI/lab-listing-database-contents-non-oracle.md",
+                "file": "markdown/callbackFn.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lab-listing-database-contents-non-oracle"
+              "title": "callbackFn"
+            }
+          },
+          {
+            "id": "81038c66c0494aed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Install docker compose.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Install docker compose"
             }
           },
           {
@@ -41,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/criptografic/prediction resistance.md",
+                "file": "markdown/short_notes.go 1/built-in functions/packages/sha256/sha256 new.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "prediction resistance"
+              "title": "sha256 new"
             }
           },
           {
@@ -55,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/tmp.md",
+                "file": "markdown/short_notes.go 1/operators/bitwise operators/Bitwise Operators.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "tmp"
+              "title": "Bitwise Operators"
             }
           },
           {
@@ -78,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -109,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pad",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -219,54 +233,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d8c77ea0108fdd83",
+  "active": "81038c66c0494aed",
   "lastOpenFiles": [
-    "markdown/criptografic/tiner tls.md",
-    "markdown/criptografic/systematic bruteforcing.md",
-    "markdown/criptografic/stream cypher.md",
-    "markdown/criptografic/rsa.md",
-    "markdown/criptografic/Vigenère Cipher.md",
-    "markdown/criptografic/Provable Security.md",
-    "markdown/criptografic/Probabillity of success.md",
-    "markdown/criptografic/Security notions.md",
-    "markdown/criptografic/Saving a key.md",
-    "markdown/criptografic/RNG.md",
-    "markdown/criptografic/permutation.md",
-    "markdown/criptografic/prediction resistance.md",
-    "markdown/short_notes/masking.md",
-    "markdown/criptografic/padding 1.md",
-    "markdown/criptografic/Mersenne Twister (MT) 1.md",
-    "markdown/short_notes/lpm.md",
-    "markdown/criptografic/linear 1.md",
-    "markdown/criptografic/initialize.md",
-    "markdown/criptografic/Initialization Vector IV 1.md",
-    "markdown/short_notes/fundaments.md",
-    "markdown/criptografic/dev random of linux 1.md",
-    "markdown/CWE/Informational security.md",
-    "markdown/criptografic/hash collision.md",
-    "markdown/criptografic/Genereting symmetric keys 1.md",
-    "markdown/criptografic/generating Asymmetric Key 1.md",
-    "markdown/criptografic/Full atack cost 1.md",
+    "markdown/callbackFn.md",
+    "Install docker compose.md",
+    "markdown/short_notes.js 1/DOM/event.md",
+    "Pasted image 20250107001802.png",
+    "Pasted image 20250107000936.png",
+    "markdown/mongoos/comun commands.md",
+    "markdown/short_notes.js 1/DOM",
+    "markdown/criptografic/hash/Hash.md",
+    "markdown/short_notes.go 1/operators/bitwise operators/Bitwise Operators.md",
+    "markdown/tmp.md",
+    "Pasted image 20250105231308.png",
+    "Pasted image 20250105225322.png",
+    "markdown/Portswigger/SQLI/lab-listing-database-contents-non-oracle.md",
+    "markdown/short_notes.go 1/built-in functions/packages/sha256/sha256 new.md",
+    "markdown/short_notes.go 1/built-in functions/packages/sha256/sum.md",
+    "markdown/short_notes.go 1/built-in functions/packages/sha256/Untitled",
+    "markdown/short_notes.go 1/data-types/struct/nested structs.md",
+    "markdown/short_notes.go 1/built-in functions/packages/sha256",
+    "markdown/short_notes.go 1/data-types/struct/embedded.md",
+    "markdown/short_notes.go 1/data-types/composite_literals.md",
+    "markdown/short_notes.go 1/data-types/struct/receiver.md",
+    "markdown/short_notes.go 1/data-types/slice/slice literals.md",
+    "markdown/short_notes.go 1/`...`.md",
+    "Pasted image 20250105132909.png",
+    "markdown/criptografic/hash/hash collision.md",
+    "markdown/criptografic/hash/hash function.md",
+    "markdown/criptografic/hash/hashcat.md",
+    "markdown/criptografic/hash/SHA-256.md",
+    "Pasted image 20250105000810.png",
+    "NIDS.md",
+    "markdown/criptografic/hash",
+    "markdown/criptografic/symetric encription/block cipher/padding.md",
+    "markdown/criptografic/N.md",
+    "markdown/criptografic/masking.md",
+    "markdown/criptografic/symetric encription/block cipher/Key Schedule.md",
+    "markdown/criptografic/key 1.md",
+    "markdown/criptografic/asymmetric",
+    "markdown/criptografic/symetric encription/block cipher",
     "markdown/short_notes.go 1/built-in functions/packages/net http/net url",
     "markdown/short_notes.js 1/JS data types/bolean/operators",
     "markdown/short_notes.go 1/built-in functions/packages/uri",
     "markdown/short_notes.go 1/built-in functions/packages/strings",
-    "markdown/short_notes.go 1/built-in functions/packages/net http",
-    "markdown/short_notes.go 1/built-in functions/packages/io",
-    "markdown/short_notes.go 1/built-in functions/packages/http",
-    "markdown/short_notes.go 1/built-in functions/packages/fmt",
-    "markdown/short_notes.go 1/built-in functions/packages/errors",
-    "markdown/short_notes.go 1/built-in functions/packages/encoding json",
     "markdown/short_notes/Pasted image 20241231202638.png",
     "markdown/short_notes/Pasted image 20241231201118.png",
     "markdown/short_notes/Pasted image 20241231200749.png",
     "markdown/short_notes/Pasted image 20241231200055.png",
-    "markdown/short_notes/Pasted image 20241230222107.png",
-    "markdown/short_notes/Pasted image 20241230220820.png",
-    "markdown/short_notes/Pasted image 20241230135022.png",
-    "markdown/short_notes/Pasted image 20241230134925.png",
-    "markdown/short_notes/Pasted image 20241229214743.png",
-    "markdown/short_notes/Pasted image 20241229214737.png",
     "markdown/Portswigger/HTTP request smuggling/Untitled.canvas"
   ]
 }

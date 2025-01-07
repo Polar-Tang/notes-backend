@@ -1,1 +1,0 @@
-A compiler reads a program written in a high-level language, like C++, from a source code file. The compiler translates or converts the source code to executable machine code and writes it to a program file.

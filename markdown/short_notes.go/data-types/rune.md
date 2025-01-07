@@ -1,1 +1,0 @@
-`rune` is a 32-bit integer

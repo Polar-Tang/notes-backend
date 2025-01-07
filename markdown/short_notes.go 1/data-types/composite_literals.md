@@ -1,4 +1,19 @@
-Composite literals is basically to define composite values which you could later giving different values, they have the advantage to be scalable
+A **composite literal** is a way to create and initialize a composite data type (like a struct, array, slice, or map).
+
+When we are using a composite literal we are declaring and initializing at the same time:
+```go
+return &hasher{
+	hash: sha256.New(),
+}
+```
+
+Without a composite literal this will look like
+```go
+h := hasher{}                  // Create an empty hasher struct
+h.hash = sha256.New()          // Set the hash field
+return &h                      // Return a pointer to h
+```
+is basically to define composite values which you could later giving different values, they have the advantage to be scalable
 
 
 They are a way to declare and/or initialize multiple values at once. This can be a `struct`, `array`, `slice`, or `map`.
@@ -64,7 +79,7 @@ points := map[Point]string{
 
 ```
 
-#### Examples
+#### Example
 Declare a typing using composite literals
 ```go
 type Point struct {
@@ -80,4 +95,16 @@ line := Line{
     End:   Point{X: 10, Y: 10},
 }
 
+```
+
+#### Example
+In this example we pass a hash.Hash value to a struct with a pointer:
+```go
+type hasher struct { 
+	hash hash.Hash 
+}
+
+return &hasher{
+	hash: sha256.New(),
+}
 ```

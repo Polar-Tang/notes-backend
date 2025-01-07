@@ -12,7 +12,7 @@ func () int {
 	return 0
 }
 ```
-We can define a regulat functrion that utilize this type to do a computation:
+We can define a regular function that utilize this type to do a computation:
 ```go
 func area(r rect) int { // Regular function
 
@@ -29,7 +29,7 @@ func main() {
 }
 ```
 Now the syntax here will be a little bit confusing, but we could provide a function to this type that we defined, Like a special parameter that syntactically goes _before_ the name of the function. And this work pretty similar to a method in the OOP of JavaScript.
-And then we provide of this type:
+We provide a function of this type:
 ```go
 func (r rect) area() int { // Method
     return r.width * r.height
