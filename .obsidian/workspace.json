@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/callbackFn.md",
+                "file": "markdown/short_notes.js 1/react/react router dom/useNavigate.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "callbackFn"
+              "title": "useNavigate"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Install docker compose.md",
+                "file": "markdown/short_notes.js 1/DOM/event.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Install docker compose"
+              "title": "event"
             }
           },
           {
@@ -91,8 +91,7 @@
               "title": "Authentication"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -123,7 +122,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "caido",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -233,11 +232,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "81038c66c0494aed",
+  "active": "319f2ee1f0dfd8b8",
   "lastOpenFiles": [
+    "markdown/short_notes.js 1/functions/setTimeout.md",
+    "markdown/short_notes.js 1/react/react router dom/useNavigate.md",
+    "markdown/short_notes.js 1/react/react router dom",
+    "markdown/short_notes.js 1/react/Failed to connect to react.md",
+    "markdown/Install_caido.md",
+    "markdown/Portswigger/Information Disclosure/lab-infoleak-in-version-control-history.md",
     "markdown/callbackFn.md",
-    "Install docker compose.md",
     "markdown/short_notes.js 1/DOM/event.md",
+    "markdown/short_notes.js 1/react/usestate.md",
+    "markdown/short_notes.js 1/ternary conditioanal.md",
+    "markdown/short_notes.js 1/react",
+    "markdown/short_notes.js 1/Untitled 1.md",
+    "markdown/short_notes.js 1/Untitled.md",
+    "Install docker compose.md",
     "Pasted image 20250107001802.png",
     "Pasted image 20250107000936.png",
     "markdown/mongoos/comun commands.md",
@@ -260,23 +270,12 @@
     "markdown/short_notes.go 1/`...`.md",
     "Pasted image 20250105132909.png",
     "markdown/criptografic/hash/hash collision.md",
-    "markdown/criptografic/hash/hash function.md",
-    "markdown/criptografic/hash/hashcat.md",
-    "markdown/criptografic/hash/SHA-256.md",
     "Pasted image 20250105000810.png",
-    "NIDS.md",
     "markdown/criptografic/hash",
-    "markdown/criptografic/symetric encription/block cipher/padding.md",
-    "markdown/criptografic/N.md",
-    "markdown/criptografic/masking.md",
-    "markdown/criptografic/symetric encription/block cipher/Key Schedule.md",
-    "markdown/criptografic/key 1.md",
     "markdown/criptografic/asymmetric",
     "markdown/criptografic/symetric encription/block cipher",
     "markdown/short_notes.go 1/built-in functions/packages/net http/net url",
     "markdown/short_notes.js 1/JS data types/bolean/operators",
-    "markdown/short_notes.go 1/built-in functions/packages/uri",
-    "markdown/short_notes.go 1/built-in functions/packages/strings",
     "markdown/short_notes/Pasted image 20241231202638.png",
     "markdown/short_notes/Pasted image 20241231201118.png",
     "markdown/short_notes/Pasted image 20241231200749.png",
