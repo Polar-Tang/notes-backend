@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/mongoos/comun commands.md",
+                "file": "markdown/CWE/CVE-2020-7689(bcript-overflow).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "comun commands"
+              "title": "CVE-2020-7689(bcript-overflow)"
             }
           }
         ],
@@ -191,8 +191,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d8c77ea0108fdd83",
+  "active": "009f05125a4c9e45",
   "lastOpenFiles": [
+    "markdown/CWE/CWE-308(\"1FA\").md",
+    "markdown/CWE/CWE-312(clear-text-store).md",
+    "markdown/CWE/CWE-315(clear-text-cookie).md",
+    "markdown/CWE/CWE-523(unproper-transport-creds).md",
+    "markdown/CWE/CWE-522.md",
+    "markdown/mongoos/comun commands.md",
     "markdown/criptografic/Informational security 1.md",
     "markdown/short_notes.js 1/ternary conditioanal.md",
     "markdown/short_notes.js 1/string/string methods/symbol iterator string.md",
@@ -218,13 +224,7 @@
     "markdown/short_notes.js 1/JS data types/Number.md",
     "markdown/CWE/Informational security.md",
     "markdown/mongoos/asd.md",
-    "markdown/short_notes.js 1/JS data types/array/array methods/includes.md",
-    "markdown/asd.md",
-    "markdown/short_notes.js 1/operators/Comparasion.md",
-    "markdown/short_notes.js 1/JS data types/number/coarce to a number.md",
-    "markdown/short_notes.js 1/JS data types/array/array methods/lastIndexOf.md",
     "markdown/short_notes.js 1/JS data types/number",
-    "markdown/TCM/Authentication/Authentication.md",
     "markdown/short_notes.js 1/JS data types/Object",
     "markdown/short_notes.js 1/DOM",
     "markdown/short_notes.go 1/built-in functions/packages/sha256",
