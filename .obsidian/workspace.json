@@ -8,17 +8,59 @@
         "type": "tabs",
         "children": [
           {
+            "id": "319f2ee1f0dfd8b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "markdown/short_notes.js 1/react/hoc/useRef.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "useRef"
+            }
+          },
+          {
+            "id": "81038c66c0494aed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "markdown/short_notes.js 1/DOM/event.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "event"
+            }
+          },
+          {
+            "id": "a9503749d7849ebc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "markdown/Portswigger/SQLI/lab-sql-injection-visible-error-based.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "lab-sql-injection-visible-error-based"
+            }
+          },
+          {
             "id": "00ce4415a5c16c67",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/CWE/CWE-287(improper-authentication).md",
+                "file": "markdown/short_notes.go 1/built-in functions/packages/sha256/sha256 new.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CWE-287(improper-authentication)"
+              "title": "sha256 new"
             }
           },
           {
@@ -27,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/short_notes.js 1/JS data types/array/array methods/lastIndexOf.md",
+                "file": "markdown/short_notes.go 1/operators/bitwise operators/Bitwise Operators.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lastIndexOf"
+              "title": "Bitwise Operators"
             }
           },
           {
@@ -41,16 +83,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/CWE/CVE-2020-7689(bcript-overflow).md",
+                "file": "markdown/TCM/Authentication/Authentication.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "CVE-2020-7689(bcript-overflow)"
+              "title": "Authentication"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,7 +122,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "useS",
+                "query": "caido",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -191,48 +232,48 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "009f05125a4c9e45",
+  "active": "319f2ee1f0dfd8b8",
   "lastOpenFiles": [
-    "markdown/CWE/CWE-308(\"1FA\").md",
-    "markdown/CWE/CWE-312(clear-text-store).md",
-    "markdown/CWE/CWE-315(clear-text-cookie).md",
-    "markdown/CWE/CWE-523(unproper-transport-creds).md",
-    "markdown/CWE/CWE-522.md",
-    "markdown/mongoos/comun commands.md",
+    "markdown/short_notes.js 1/operators/Comparasion.md",
+    "markdown/short_notes.js 1/JS data types/string/string methods/symbol iterator string.md",
+    "markdown/short_notes.js 1/JS data types/string/string methods/replace.md",
+    "markdown/short_notes.js 1/JS data types/string/string methods/normalize.md",
+    "markdown/short_notes.js 1/JS data types/string/string methods/match.md",
+    "markdown/short_notes.js 1/JS data types/string/string methods/lastindexof.md",
+    "markdown/short_notes.js 1/JS data types/string/string methods/indexOf.md",
+    "markdown/short_notes.js 1/JS data types/string/string methods/includes.md",
+    "markdown/short_notes.js 1/JS data types/string/string methods/charAt.md",
+    "markdown/short_notes.js 1/JS data types/string/string methods",
+    "markdown/short_notes.js 1/JS data types/string",
+    "markdown/short_notes.js 1/JS data types/number/coarce to a number.md",
+    "markdown/short_notes.js 1/JS data types/number/Number.md",
+    "markdown/short_notes.js 1/JS data types/number",
+    "markdown/short_notes.js 1/JS data types/Object/object methods/hasOwnPorperty.md",
+    "markdown/short_notes.js 1/JS data types/Object/object methods/entries.md",
+    "markdown/short_notes.js 1/JS data types/Object/object methods/create.md",
+    "markdown/short_notes.js 1/JS data types/Object/prototype-based inheritance.md",
+    "markdown/short_notes.js 1/JS data types/Object/polymorhpism.md",
+    "markdown/short_notes.js 1/JS data types/Object/object methods",
+    "markdown/short_notes.js 1/JS data types/Object/Object.md",
+    "markdown/short_notes.js 1/JS data types/Object",
     "markdown/criptografic/Informational security 1.md",
-    "markdown/short_notes.js 1/ternary conditioanal.md",
-    "markdown/short_notes.js 1/string/string methods/symbol iterator string.md",
-    "markdown/short_notes.js 1/string/string methods/replace.md",
-    "markdown/short_notes.js 1/string/string methods/normalize.md",
-    "markdown/short_notes.js 1/string/string methods/match.md",
-    "markdown/short_notes.js 1/string/string methods/lastindexof.md",
-    "markdown/short_notes.js 1/string/string methods/indexOf.md",
-    "markdown/short_notes.js 1/string/string methods/includes.md",
-    "markdown/short_notes.js 1/string/string methods/charAt.md",
-    "markdown/short_notes.js 1/string/string methods",
-    "markdown/short_notes.js 1/string",
+    "markdown/short_notes.js 1/react/hoc/hoc.md",
+    "markdown/short_notes.js 1/react/hoc/useRef.md",
     "markdown/short_notes.js 1/react/react router dom/useNavigate.md",
-    "markdown/short_notes.js 1/react/usestate.md",
+    "markdown/short_notes.js 1/react/hoc",
+    "markdown/short_notes.js 1/functions/setTimeout.md",
     "markdown/short_notes.js 1/react/react router dom",
     "markdown/short_notes.js 1/react/Failed to connect to react.md",
+    "markdown/Install_caido.md",
+    "markdown/Portswigger/Information Disclosure/lab-infoleak-in-version-control-history.md",
+    "markdown/callbackFn.md",
     "markdown/short_notes.js 1/react",
-    "markdown/short_notes.js 1/object methods/hasOwnPorperty.md",
-    "markdown/short_notes.js 1/object methods/entries.md",
-    "markdown/short_notes.js 1/object methods",
-    "markdown/short_notes.js 1/inheritance and the prototype chain.md",
-    "markdown/short_notes.js 1/functions/setTimeout.md",
-    "markdown/short_notes.js 1/JS data types/Number.md",
-    "markdown/CWE/Informational security.md",
-    "markdown/mongoos/asd.md",
-    "markdown/short_notes.js 1/JS data types/number",
-    "markdown/short_notes.js 1/JS data types/Object",
-    "markdown/short_notes.js 1/DOM",
-    "markdown/short_notes.go 1/built-in functions/packages/sha256",
-    "markdown/criptografic/symetric encription/block cipher/feistel/blowfish",
     "Pasted image 20250107001802.png",
     "Pasted image 20250107000936.png",
+    "markdown/short_notes.js 1/DOM",
     "Pasted image 20250105231308.png",
     "Pasted image 20250105225322.png",
+    "markdown/short_notes.go 1/built-in functions/packages/sha256/Untitled",
     "Pasted image 20250105132909.png",
     "Pasted image 20250105000810.png",
     "markdown/short_notes/Pasted image 20241231202638.png",
