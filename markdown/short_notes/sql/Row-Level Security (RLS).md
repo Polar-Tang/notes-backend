@@ -1,0 +1,1 @@
+Row level security is to assign, restrict, or adding functions depending on the row. This introduce a new layer of security for [[defense in depth]], for example by allowing certain capabilities to users that aren't admin.

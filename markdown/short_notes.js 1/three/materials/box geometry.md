@@ -1,0 +1,1 @@
+it's an object taht contains all the points (`vertices`), use to be 3, x, y, z

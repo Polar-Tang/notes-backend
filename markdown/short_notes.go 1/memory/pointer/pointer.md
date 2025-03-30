@@ -13,5 +13,8 @@ The `&` operator generates a pointer to its operand.
 ```go
 myString := "hello"
 myStringPtr := &myString
+
+fmt.Println(myStringPtr) // ADDRES IN MEMMORY 
+fmt.Println(*myStringPtr) // VALUE
 ```
 

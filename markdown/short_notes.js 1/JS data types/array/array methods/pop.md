@@ -1,5 +1,5 @@
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop
-Removes the last element of an array and returns it.
+Removes the last element of an array and returns it. The changes are made in the array.
 ```js
 const plants = ['broccoli', 'cauliflower', 'cabbage', 'kale', 'tomato'];
 

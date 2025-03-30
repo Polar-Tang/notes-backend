@@ -1,0 +1,1 @@
+The interface in TS it's more like the shape of a class, the mthods that this should ot use

@@ -1,0 +1,1 @@
+If a class is coded to work wiht a superclass, it should also work with any of its subclasses. Derived classes should specialize baseclass, which can access all the properties and methods from the parent class

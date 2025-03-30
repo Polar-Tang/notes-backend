@@ -1,0 +1,1 @@
+The whole idea of [defense in depth](https://en.wikipedia.org/wiki/Defense_in_depth_(computing)) is to have multiple layers so when a part of a system gets compromised, the system is not entirely comprised 

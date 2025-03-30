@@ -1,3 +1,4 @@
+https://pkg.go.dev/builtin#int
 int are integers, 
 to force a int to be a number we could force this:
 ```go

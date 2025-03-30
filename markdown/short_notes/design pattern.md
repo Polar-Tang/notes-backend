@@ -1,0 +1,1 @@
+A design pattern is a set of generalised instructions that provide a solution to commonly occurring problems in software design.

@@ -23,7 +23,7 @@ const {formState, handleChange} = useForm({
 ```
 
 ### CalbackFN
-At the same time i could pass it a `Callback`, and the return value of the callbaqck will be utilized as the new state. Where the value of the callbkack is called `prevState` because is the previous state of the component 
+At the same time i could pass it a `Callback`, and the return value of the callback will be utilized as the new state. Where the value of the callbkack is called `prevState` because is the previous state of the component 
 
 ```jsx
 const [state, setState] = useState({

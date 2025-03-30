@@ -1,0 +1,1 @@
+In programmign a binding is an [identifier](https://developer.mozilla.org/en-US/docs/Glossary/Identifier) associated with a value, this used to be a variable but in some cases just like try catch(error) error comes as a bultin parameter

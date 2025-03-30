@@ -1,0 +1,1 @@
+utils.toArray is like a queryselector all: select all html element that matches the class name and push them into an array

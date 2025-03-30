@@ -19,3 +19,14 @@ Examples of synchronous callbacks include the callbacks passed to [`Array.proto
 ```js
 (args) => callbackFn(args)
 ```
+A callback function is afunction passed as an argument
+
+The types of the callbacks are **Synchronous** and **Asynchronous**
+##### Synchronous
+- [[short_notes.js 1/JS data types/array/array methods/map|map]] 
+- [[filter]]
+- [[reduce]]
+- [[some]]
+
+##### Asynchronous
+- [[setTimeout]]

@@ -1,0 +1,1 @@
+filter method create a new array with all the element that pass the callback condition

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/short_notes.js 1/react/hoc/useRef.md",
+                "file": "markdown/short_notes.js 1/react/Failed to connect to react.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "useRef"
+              "title": "Failed to connect to react"
             }
           },
           {
@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/short_notes.js 1/DOM/event.md",
+                "file": "markdown/short_notes.js 1/JS data types/array/array methods/find.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "event"
+              "title": "find"
             }
           },
           {
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/Portswigger/SQLI/lab-sql-injection-visible-error-based.md",
+                "file": "markdown/short_notes.js 1/debouncing.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "lab-sql-injection-visible-error-based"
+              "title": "debouncing"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/short_notes.go 1/built-in functions/packages/sha256/sha256 new.md",
+                "file": "markdown/short_notes.go 1/crawl.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "sha256 new"
+              "title": "crawl"
             }
           },
           {
@@ -69,12 +69,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "markdown/short_notes.go 1/operators/bitwise operators/Bitwise Operators.md",
+                "file": "markdown/Docker/docker compose.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Bitwise Operators"
+              "title": "docker compose"
             }
           },
           {
@@ -91,7 +91,8 @@
               "title": "Authentication"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -122,7 +123,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "caido",
+                "query": "find",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -232,54 +233,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "319f2ee1f0dfd8b8",
+  "active": "81038c66c0494aed",
   "lastOpenFiles": [
-    "markdown/short_notes.js 1/operators/Comparasion.md",
-    "markdown/short_notes.js 1/JS data types/string/string methods/symbol iterator string.md",
-    "markdown/short_notes.js 1/JS data types/string/string methods/replace.md",
-    "markdown/short_notes.js 1/JS data types/string/string methods/normalize.md",
-    "markdown/short_notes.js 1/JS data types/string/string methods/match.md",
-    "markdown/short_notes.js 1/JS data types/string/string methods/lastindexof.md",
-    "markdown/short_notes.js 1/JS data types/string/string methods/indexOf.md",
-    "markdown/short_notes.js 1/JS data types/string/string methods/includes.md",
-    "markdown/short_notes.js 1/JS data types/string/string methods/charAt.md",
-    "markdown/short_notes.js 1/JS data types/string/string methods",
-    "markdown/short_notes.js 1/JS data types/string",
-    "markdown/short_notes.js 1/JS data types/number/coarce to a number.md",
-    "markdown/short_notes.js 1/JS data types/number/Number.md",
-    "markdown/short_notes.js 1/JS data types/number",
-    "markdown/short_notes.js 1/JS data types/Object/object methods/hasOwnPorperty.md",
-    "markdown/short_notes.js 1/JS data types/Object/object methods/entries.md",
-    "markdown/short_notes.js 1/JS data types/Object/object methods/create.md",
-    "markdown/short_notes.js 1/JS data types/Object/prototype-based inheritance.md",
-    "markdown/short_notes.js 1/JS data types/Object/polymorhpism.md",
-    "markdown/short_notes.js 1/JS data types/Object/object methods",
-    "markdown/short_notes.js 1/JS data types/Object/Object.md",
-    "markdown/short_notes.js 1/JS data types/Object",
-    "markdown/criptografic/Informational security 1.md",
-    "markdown/short_notes.js 1/react/hoc/hoc.md",
-    "markdown/short_notes.js 1/react/hoc/useRef.md",
-    "markdown/short_notes.js 1/react/react router dom/useNavigate.md",
-    "markdown/short_notes.js 1/react/hoc",
-    "markdown/short_notes.js 1/functions/setTimeout.md",
-    "markdown/short_notes.js 1/react/react router dom",
-    "markdown/short_notes.js 1/react/Failed to connect to react.md",
-    "markdown/Install_caido.md",
-    "markdown/Portswigger/Information Disclosure/lab-infoleak-in-version-control-history.md",
-    "markdown/callbackFn.md",
-    "markdown/short_notes.js 1/react",
-    "Pasted image 20250107001802.png",
-    "Pasted image 20250107000936.png",
-    "markdown/short_notes.js 1/DOM",
-    "Pasted image 20250105231308.png",
-    "Pasted image 20250105225322.png",
-    "markdown/short_notes.go 1/built-in functions/packages/sha256/Untitled",
-    "Pasted image 20250105132909.png",
-    "Pasted image 20250105000810.png",
-    "markdown/short_notes/Pasted image 20241231202638.png",
-    "markdown/short_notes/Pasted image 20241231201118.png",
-    "markdown/short_notes/Pasted image 20241231200749.png",
-    "markdown/short_notes/Pasted image 20241231200055.png",
+    "markdown/Pasted image 20250127164339.png",
+    "markdown/Pasted image 20250124185028.png",
+    "markdown/Pasted image 20250124180238.png",
+    "markdown/Pasted image 20250127150028.png",
+    "markdown/Pasted image 20250124141047.png",
+    "markdown/Pasted image 20250127150025.png",
+    "markdown/Pasted image 20250126233538.png",
+    "markdown/Pasted image 20250124185110.png",
+    "markdown/Pasted image 20250124184459.png",
+    "markdown/short_notes.js 1/JS data types/array/array methods/find index.md",
+    "markdown/short_notes.js 1/JS data types/array/array methods/find.md",
+    "markdown/short_notes.js 1/JS data types/array/array methods/some.md",
+    "markdown/short_notes.js 1/nodejs/tree pending.md",
+    "server/node_modules/fsevents",
+    "server/node_modules/next/dist/build/webpack/loaders/css-loader/src/runtime/getUrl.js.map",
+    "server/node_modules/next/dist/build/webpack/loaders/css-loader/src/runtime/getUrl.js",
+    "server/node_modules/next/dist/build/webpack/loaders/css-loader/src/runtime/getUrl.d.ts",
+    "server/node_modules/next/dist/build/webpack/loaders/css-loader/src/runtime/api.js.map",
+    "server/node_modules/next/dist/build/webpack/loaders/css-loader/src/runtime/api.js",
+    "server/node_modules/next/dist/build/webpack/loaders/css-loader/src/runtime/api.d.ts",
+    "server/node_modules/next/dist/build/webpack/loaders/css-loader/src/plugins/postcss-url-parser.js.map",
+    "server/node_modules/next/dist/build/webpack/loaders/css-loader/src/plugins/postcss-url-parser.js",
+    "server/node_modules/next/dist/build/webpack/loaders/css-loader/src/plugins/postcss-url-parser.d.ts",
+    "server/node_modules/next/dist/compiled/@babel/runtime/README.md",
+    "server/node_modules/chokidar/node_modules/glob-parent/README.md",
+    "server/node_modules/chokidar/node_modules/glob-parent/CHANGELOG.md",
+    "server/node_modules/tailwindcss/src/postcss-plugins/nesting/README.md",
+    "server/node_modules/tailwindcss/lib/postcss-plugins/nesting/README.md",
+    "server/node_modules/next/node_modules/postcss/README.md",
+    "server/node_modules/next/dist/compiled/regenerator-runtime/README.md",
+    "server/node_modules/next/dist/compiled/react-refresh/README.md",
+    "server/node_modules/next/dist/compiled/react-is/README.md",
+    "server/node_modules/wrap-ansi-cjs/node_modules/strip-ansi/readme.md",
+    "server/node_modules/wrap-ansi-cjs/node_modules/string-width/readme.md",
+    "server/node_modules/wrap-ansi-cjs/node_modules/emoji-regex/README.md",
+    "server/node_modules/wrap-ansi-cjs/node_modules/ansi-styles/readme.md",
+    "server/node_modules/wrap-ansi-cjs/node_modules/ansi-regex/readme.md",
+    "server/node_modules/tailwindcss/src/value-parser/README.md",
+    "server/node_modules/tailwindcss/lib/value-parser/README.md",
+    "server/node_modules/strip-ansi-cjs/node_modules/ansi-regex/readme.md",
+    "server/node_modules/string-width-cjs/node_modules/strip-ansi/readme.md",
+    "server/node_modules/string-width-cjs/node_modules/emoji-regex/README.md",
+    "server/node_modules/string-width-cjs/node_modules/ansi-regex/readme.md",
+    "server/node_modules/fast-glob/node_modules/glob-parent/README.md",
+    "server/public/Nautilus-logo.png",
+    "Pasted image 20250127164339.png",
     "markdown/Portswigger/HTTP request smuggling/Untitled.canvas"
   ]
 }

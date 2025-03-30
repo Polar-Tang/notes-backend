@@ -1,6 +1,6 @@
 This could happen when the index exceeds the limit of a slice.
 I mean whatever slice.
-**For example** when you try to access to an index that doens't exists:
+**For example** when you try to access to an index that doesn't exists:
 ```go
 package main
 

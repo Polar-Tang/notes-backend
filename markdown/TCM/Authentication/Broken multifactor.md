@@ -1,0 +1,1 @@
+It's important to think in [edge cases](https://en.wikipedia.org/wiki/Edge_case) 

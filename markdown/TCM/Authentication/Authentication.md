@@ -1,1 +1,2 @@
+[[Portswigger/Autenthication/authentication|authentication]] it's a critical process on many application. Many of their vulnerabilities used to be [logic flaw](summary_logic_flaw), that's why it used to be overlooked. That's why we got to review the authentication flow and come up with [edge cases](https://en.wikipedia.org/wiki/Edge_case), these logical issues use to be undetected by scanner tools and use to pass overlook 
 It's a common flow associated to bad design

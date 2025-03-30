@@ -23,7 +23,7 @@ Where to start changing
 - If it's passed undefined the [[integer conversion]] will turn it to zero
 
 #### `DeleteCount`
-Quantity of numbers to delete
+Quantity of items to delete
 - It will delete every elemnt in the array if it's omitted, or if is greater or equal than the array `if deletecount == nil || deletecount >= array.lenght` 
 - if `deleteCount == 0` no elements are removed
 
@@ -37,3 +37,5 @@ An array containing the deleted elements.
 If only one element is removed, an array of one element is returned.
 
 If no elements are removed, an empty array is returned.
+
+
